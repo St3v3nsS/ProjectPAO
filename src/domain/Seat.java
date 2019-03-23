@@ -57,4 +57,15 @@ public class Seat {
     public void setType(String type) {
         this.type = type;
     }
+
+    @Override
+    public String toString() {
+        return "Seat{" +
+                "number=" + number +
+                ", occupied=" + occupied +
+                ", row=" + row +
+                ", price=" + price +
+                ", type='" + type + '\'' +
+                '}';
+    }
 }

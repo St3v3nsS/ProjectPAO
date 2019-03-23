@@ -5,6 +5,10 @@ import enums.Genres;
 import java.util.ArrayList;
 import java.util.List;
 
+import static service.ServiceAPI.ANSI_GREEN;
+import static service.ServiceAPI.ANSI_RED;
+import static service.ServiceAPI.ANSI_RESET;
+
 public class Spectacle {
 
     protected String name;
@@ -15,6 +19,7 @@ public class Spectacle {
     protected int nrSeats;
     protected int nrVipSeats;
     protected ArrayList<Seat> seats;
+
 
     public Spectacle() {
     }
@@ -119,11 +124,11 @@ public class Spectacle {
     public void showSeats(){
         for(int j = 0; j < seats.size(); j+= 5){
             for(int i = 0; i <= 4; i++){
-                if (seats.get(j).isOccupied())
-                    System.err.print(seats.get(j+i).number + " ");
-                else System.out.print(seats.get(j+i).number + " ");
+                if (seats.get(j+i).isOccupied())
+                    System.out.print(ANSI_RED + seats.get(j+i).number + " ");
+                else System.out.print(ANSI_GREEN + seats.get(j+i).number + " ");
             }
-            System.out.println();
+            System.out.println(ANSI_RESET);
         }
     }
 }
