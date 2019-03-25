@@ -5,11 +5,11 @@ import enums.Genres;
 import enums.MovieType;
 import enums.PaymentType;
 import exceptions.OccupiedSeatException;
+import exceptions.PaymentTypeException;
+import exceptions.TooManySeatsException;
 
 import javax.sound.midi.Soundbank;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import static java.util.Arrays.asList;
@@ -24,10 +24,10 @@ public class ServiceApiImpl implements ServiceAPI{
 
     public ServiceApiImpl() {
         spectacles = new ArrayList<>();
-        spectacles.add(new Movie("Bohemian Rhapsody", new ArrayList<>(asList("Rami Malek", "Luay Boynten", "Ben Hardy",
+        spectacles.add(new Movie("Bohemian Rhapsody", new HashSet<>(asList("Rami Malek", "Luay Boynten", "Ben Hardy",
                 "Mike Myers")), "2h13", Genres.DRAMA,
                 "AFI IMAX", 15, 5, MovieType.IMAX, 8.1));
-        spectacles.add(new Theatre("Bani din cer", new ArrayList<>(asList("Mihai Bendeac", "Mihaela Teleoaca", "Delia Natea")),
+        spectacles.add(new Theatre("Bani din cer", new HashSet<>(asList("Mihai Bendeac", "Mihaela Teleoaca", "Delia Natea")),
                 "1h30", Genres.COMEDY, "Teatrul de comedie", 10, 5, new ArrayList<>(asList("geanta", "casa")), "Ray Cooney"));
     }
 
@@ -51,7 +51,7 @@ public class ServiceApiImpl implements ServiceAPI{
 
     @Override
     public void addSpectacle() {
-        spectacles.add(new Movie("Aquaman", new ArrayList<>(asList("Jason Mamoa", "Amber Heard", "Nicole Kidman")),
+        spectacles.add(new Movie("Aquaman", new HashSet<>(asList("Jason Mamoa", "Amber Heard", "Nicole Kidman")),
                 "2h22", Genres.SCIFI, "Cinemacity MegaMall", 15,10, MovieType.MOVIE4DX, 7.3));
     }
 
@@ -63,16 +63,34 @@ public class ServiceApiImpl implements ServiceAPI{
             if(s.isOccupied()){
                 throw new OccupiedSeatException("Seat already taken");
             }
-            s.setOccupied(true);
+            if(client instanceof VipClient){
+                System.out.println("NOT");
+                if(!s.getType().equals("Armchair")) {
+                    throw new OccupiedSeatException("Seat not for VIP!");
+                }
+            }else{
+
+                if(s.getType().equals("Armchair")){
+                    throw new OccupiedSeatException("Seat only for VIP!");
+                }
+            }
 
         }
+        for(Integer integer : client.getSeats()){
+            Seat s = seats.get(integer - 1);
+            s.setOccupied(true);
+        }
+
         showSeatsForSpectacle();
 
     }
 
-    private ArrayList<Integer> getSeats(){
+    private ArrayList<Integer> getSeats(boolean isVip) throws TooManySeatsException {
         System.out.println("Please enter a number of tickets: ");
-        int nrSeats = scanner.nextInt();
+        long nrSeats = scanner.nextInt();
+        if(nrSeats > getNumberSeats(isVip)){
+            throw new TooManySeatsException("Too many seats!");
+        }
         System.out.println("Enter the seats number: ");
         ArrayList<Integer> seats= new ArrayList<>();
         for(int i = 0; i < nrSeats; i++){
@@ -82,6 +100,23 @@ public class ServiceApiImpl implements ServiceAPI{
         scanner.nextLine();
         return seats;
 
+    }
+
+    private long getNumberSeats(boolean isVip){
+        if(isVip){
+            return currentSpectacle.getSeats()
+                    .stream()
+                    .filter(e -> e.getType().equals("Armchair"))
+                    .filter(e -> !e.isOccupied())
+                    .count();
+        }
+        else{
+            return currentSpectacle.getSeats()
+                    .stream()
+                    .filter(e -> !e.getType().equals("Armchair"))
+                    .filter(e -> !e.isOccupied())
+                    .count();
+        }
     }
 
     private void displaySeats(List<? extends Seat> seats){
@@ -95,37 +130,98 @@ public class ServiceApiImpl implements ServiceAPI{
         }
     }
 
+    private PaymentType getPaymentType() throws PaymentTypeException {
+
+        System.out.println("What is your payment method? Card/Cash");
+        String payment = scanner.nextLine().toUpperCase();
+        switch (payment) {
+            case "CARD":
+                return PaymentType.CARD;
+            case "CASH":
+                return PaymentType.CASH;
+            default:
+                throw new PaymentTypeException("Wrong Payment Type! Type Card or Cash");
+        }
+
+    }
+
     @Override
     public Client createClient() {
         Client client = null;
+
+
         String name, vip, yesNo;
         ArrayList<Integer> seats;
         int maxTries = 3;
         int count = 0;
+        boolean isVip;
 
         System.out.println("Please enter your name: ");
         name = scanner.nextLine();
         System.out.println("Do you want to be VIP? Y/N ");
         vip = scanner.nextLine().toUpperCase();
         if(vip.equals("Y")){
+            isVip = true;
+            displaySeats(currentSpectacle.getSeats()
+                    .stream()
+                    .filter(e -> e.getType().equals("Armchair"))
+                    .collect(Collectors.toList()));
 
-            displaySeats(currentSpectacle.getSeats().stream().filter(e -> e.getType().equals("Armchair")).collect(Collectors.toList()));
-            seats = getSeats();
-            client = new VipClient(name, seats);
+            int maxGetSeats = 3;
+            int countMax = 1;
+            while(true){
+                try {
+                    seats = getSeats(isVip);
+                    client = new VipClient(name, seats);
+                    break;
+                }catch (TooManySeatsException exception){
+                    System.err.println(exception.getMessage());
+                    if(countMax == maxGetSeats){
+                        System.out.println("Too many tries!");
+                        break;
+                    }
+                    else countMax++;
+                }
+            }
+
         }
         else{
-            displaySeats(currentSpectacle.getSeats().stream().filter(e -> !e.getType().equals("Armchair")).collect(Collectors.toList()));
-            seats = getSeats();
-            System.out.println("What is your payment method? Card/Cash");
-            String payment = scanner.nextLine().toUpperCase();
-            client = new Client(name, seats);
-            if(payment.equals("CARD")){
-                client.setPaymentType(PaymentType.CARD);
-            }
-            else{
-                client.setPaymentType(PaymentType.CASH);
-            }
+            displaySeats(currentSpectacle.getSeats()
+                    .stream()
+                    .filter(e -> !e.getType().equals("Armchair"))
+                    .collect(Collectors.toList()));
+            isVip = false;
+            int maxGetSeats = 3;
+            int countMax = 1;
+            while(true){
+                try {
+                    seats = getSeats(isVip);
+                    client = new Client(name, seats);
 
+                    PaymentType paymentType;
+                    int payCount = 1;
+                    int maxPayCount = 3;
+                    while(true){
+                        try{
+                            paymentType = getPaymentType();
+                            client.setPaymentType(paymentType);
+                            break;
+                        }catch (PaymentTypeException paymentException){
+                            System.err.println(paymentException.getMessage());
+                            if(payCount == maxPayCount) break;
+                            else payCount++;
+                        }
+                    }
+                    break;
+                }catch (TooManySeatsException exception){
+                    System.err.println(exception.getMessage());
+                    if(countMax == maxGetSeats){
+                        System.out.println("Too many tries!");
+                        break;
+                    }
+                    else countMax++;
+                }
+            }
 
         }
         System.out.println("Do you want to save the registration? Y/N ");
@@ -138,15 +234,20 @@ public class ServiceApiImpl implements ServiceAPI{
                 }
                 catch (OccupiedSeatException exception){
                     System.out.println(exception.getMessage());
-                    count++;
-                    client.setSeats(getSeats());
+
+                    try{
+                        client.setSeats(getSeats(isVip));
+                    }
+                    catch (TooManySeatsException ex){
+                        System.err.println(ex.getMessage());
+                    }
                     if(count == maxTries - 1){
                         System.out.println("You are blind? Don't you see that red are occupied?");
                         return null;
                     }
+                    count++;
                 }
             }
-
 
         }
         else{

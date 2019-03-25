@@ -4,6 +4,7 @@ import enums.Genres;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import static service.ServiceAPI.ANSI_GREEN;
 import static service.ServiceAPI.ANSI_RED;
@@ -12,7 +13,7 @@ import static service.ServiceAPI.ANSI_RESET;
 public class Spectacle {
 
     protected String name;
-    protected List<String> cast;
+    protected Set<String> cast;
     protected String duration;
     protected Genres genre;
     protected String location;
@@ -24,7 +25,7 @@ public class Spectacle {
     public Spectacle() {
     }
 
-    public Spectacle(String name, List<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats) {
+    public Spectacle(String name, Set<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats) {
         this.name = name;
         this.cast = cast;
         this.duration = duration;
@@ -54,11 +55,11 @@ public class Spectacle {
         this.name = name;
     }
 
-    public List<String> getCast() {
+    public Set<String> getCast() {
         return cast;
     }
 
-    public void setCast(List<String> cast) {
+    public void setCast(Set<String> cast) {
         this.cast = cast;
     }
 

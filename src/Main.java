@@ -3,7 +3,6 @@ import service.ServiceAPI;
 import service.ServiceApiImpl;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -30,7 +29,7 @@ public class Main {
             System.out.println("Sorted clients alphabetically: ");
             System.out.println(clients);
         }else{
-            System.out.println("Sorry, wrong number!");
+            System.out.println("Sorry, wrong number! Bye... ");
         }
 
     }

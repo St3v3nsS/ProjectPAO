@@ -4,13 +4,14 @@ import enums.Genres;
 import enums.MovieType;
 
 import java.util.List;
+import java.util.Set;
 
 public class Movie extends Spectacle {
 
     private MovieType type;
     private double imdbNote;
 
-    public Movie(String name, List<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats, MovieType type, double imdbNote) {
+    public Movie(String name, Set<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats, MovieType type, double imdbNote) {
         super(name, cast, duration, genre, location, nrSeats, nrVipSeats);
         this.type = type;
         this.imdbNote = imdbNote;
