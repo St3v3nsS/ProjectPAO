@@ -1,6 +1,6 @@
 package service;
 
-import domain.*;
+import model.*;
 import enums.Genres;
 import enums.MovieType;
 import enums.PaymentType;
@@ -8,7 +8,6 @@ import exceptions.OccupiedSeatException;
 import exceptions.PaymentTypeException;
 import exceptions.TooManySeatsException;
 
-import javax.sound.midi.Soundbank;
 import java.util.*;
 import java.util.stream.Collectors;
 

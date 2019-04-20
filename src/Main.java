@@ -1,6 +1,7 @@
-import domain.Client;
+import model.Client;
 import service.ServiceAPI;
 import service.ServiceApiImpl;
+import service.ServiceApiImplFiles;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,7 +10,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        ServiceAPI serviceAPI = new ServiceApiImpl();
+        ServiceAPI serviceAPI = new ServiceApiImplFiles();
         ArrayList<Client> clients = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
@@ -31,6 +32,7 @@ public class Main {
         }else{
             System.out.println("Sorry, wrong number! Bye... ");
         }
+
 
     }
 }

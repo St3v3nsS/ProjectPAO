@@ -1,6 +1,6 @@
 package service;
 
-import domain.Client;
+import model.Client;
 
 public interface ServiceAPI {
 

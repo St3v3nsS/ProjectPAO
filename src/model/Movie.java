@@ -1,9 +1,8 @@
-package domain;
+package model;
 
 import enums.Genres;
 import enums.MovieType;
 
-import java.util.List;
 import java.util.Set;
 
 public class Movie extends Spectacle {
@@ -45,4 +44,6 @@ public class Movie extends Spectacle {
                 ", location='" + location + '\'' +
                 '}';
     }
+
+
 }

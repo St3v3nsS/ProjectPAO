@@ -1,9 +1,8 @@
-package domain;
+package model;
 
 import enums.Genres;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 
 public class Theatre extends Spectacle {
