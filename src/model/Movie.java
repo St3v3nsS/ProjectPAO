@@ -10,8 +10,8 @@ public class Movie extends Spectacle {
     private MovieType type;
     private double imdbNote;
 
-    public Movie(String name, Set<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats, MovieType type, double imdbNote) {
-        super(name, cast, duration, genre, location, nrSeats, nrVipSeats);
+    public Movie(String id, String name, Set<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats, MovieType type, double imdbNote) {
+        super(id, name, cast, duration, genre, location, nrSeats, nrVipSeats);
         this.type = type;
         this.imdbNote = imdbNote;
     }
@@ -35,13 +35,14 @@ public class Movie extends Spectacle {
     @Override
     public String toString() {
         return "Movie{" +
-                "type=" + type +
-                ", imdbNote=" + imdbNote +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", cast=" + cast +
-                ", duration='" + duration + '\'' +
+                ", type=" + type +
                 ", genre=" + genre +
+                ", duration='" + duration + '\'' +
                 ", location='" + location + '\'' +
+                ", imdbNote=" + imdbNote +
                 '}';
     }
 

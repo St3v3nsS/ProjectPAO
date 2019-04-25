@@ -8,39 +8,80 @@ import exceptions.PaymentTypeException;
 import exceptions.TooManySeatsException;
 import model.*;
 import org.jetbrains.annotations.NotNull;
+import repository.ClientsRepository;
 import repository.SpectaclesRepository;
 
-import java.io.BufferedWriter;
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 import java.time.Instant;
 import java.util.*;
 import java.util.stream.Collectors;
-
-import static java.util.Arrays.asList;
+import java.util.stream.IntStream;
 
 public class ServiceApiImplFiles implements ServiceAPI {
 
-    SpectaclesRepository spectaclesRepository = new SpectaclesRepository();
-    Spectacle currentSpectacle;
-    Scanner scanner = new Scanner(System.in);
-    static long id = 0;
-    Path moviePath = Paths.get("src/resources/movies.csv");
-    Path theatrePath = Paths.get("src/resources/theatres.csv");
-    Path writeCSV = Paths.get("src/resources/actions.csv");
+    private SpectaclesRepository spectaclesRepository = new SpectaclesRepository();
+    private ClientsRepository clientsRepository = new ClientsRepository();
+    private Spectacle currentSpectacle;
+    private Scanner scanner = new Scanner(System.in);
+    private static long id = 0;
+    private static long idClient = 0;
+    private static long idNewMovie = 1;
+    private static long idNewTheatre = 1;
+    private Path moviePath = Paths.get("src/resources/movies.csv");
+    private Path theatrePath = Paths.get("src/resources/theatres.csv");
+    private Path writeCSV = Paths.get("src/resources/actions.csv");
+    private Path addMoviePath = Paths.get("src/resources/movies_to_add.csv");
+    private Path addTheatrePath = Paths.get("src/resources/theatres_to_add.csv");
+    private Path clientPath = Paths.get("src/resources/clients.csv");
+
 
     public ServiceApiImplFiles() {
 
         readMovies();
         readTheatre();
+        readClients();
 
     }
 
-    private void writeDataToCsv(@NotNull String data){
+    private void readClients() {
+        try{
+            Files.lines(clientPath).skip(1).forEach( e ->{
+                String[] values = e.split(", ");
+                Client client = getClient(values);
+
+                clientsRepository.addClient(client);
+                currentSpectacle = spectaclesRepository.findByName(client.getSpectacle());
+                addClientForSpectacle(client);
+            });
+        }catch (IOException ex){
+            ex.printStackTrace();
+        }
+    }
+
+    private Client getClient(String[] values) {
+        Client client;
+        if(values[5].equals("true")){
+            client = new VipClient();
+        }else{
+            client = new Client();
+        }
+        client.setName(values[1]);
+        String[] seats = values[2].split("\\| ");
+        List<Integer> lista = Arrays.stream(seats).flatMapToInt(e -> IntStream.of(Integer.parseInt(e)))
+                .boxed()
+                .collect(Collectors.toList());
+        client.setSeats(new ArrayList<>(lista));
+        client.setPaymentType(PaymentType.valueOf(values[3]));
+        client.setSpectacle(values[4]);
+
+        return client;
+    }
+
+    private void writeDataToCsv(@NotNull String data, Path path){
 
       try{
-          Files.write(writeCSV, data.getBytes(), StandardOpenOption.APPEND);
+          Files.write(path, data.getBytes(), StandardOpenOption.APPEND);
       } catch (IOException ex){
           ex.printStackTrace();
       }
@@ -53,9 +94,9 @@ public class ServiceApiImplFiles implements ServiceAPI {
                 String[] values = e.split(", ");
                 Spectacle spectacle = getSpectacle(values);
 
-                Theatre theatre = new Theatre(spectacle.getName(), spectacle.getCast(), spectacle.getDuration(),
-                        spectacle.getGenre(), spectacle.getLocation(), spectacle.getNrSeats(), spectacle.getNrVipSeats(),
-                        new ArrayList<>(Arrays.asList(values[8].split("\\|"))), values[9]);
+                Theatre theatre = new Theatre(spectacle.getId(), spectacle.getName(), spectacle.getCast(),
+                        spectacle.getDuration(), spectacle.getGenre(), spectacle.getLocation(), spectacle.getNrSeats(),
+                        spectacle.getNrVipSeats(), new ArrayList<>(Arrays.asList(values[8].split("\\|"))), values[9]);
 
                 spectaclesRepository.addSpectacle(theatre);
             });
@@ -71,7 +112,7 @@ public class ServiceApiImplFiles implements ServiceAPI {
                 String[] values = e.split(", ");
                 Spectacle spectacle = getSpectacle(values);
 
-                Movie movie = new Movie(spectacle.getName(), spectacle.getCast(), spectacle.getDuration(), spectacle.getGenre(),
+                Movie movie = new Movie(spectacle.getId(), spectacle.getName(), spectacle.getCast(), spectacle.getDuration(), spectacle.getGenre(),
                         spectacle.getLocation(),spectacle.getNrSeats(), spectacle.getNrVipSeats(), MovieType.valueOf(values[8]),
                         Double.parseDouble(values[9]));
 
@@ -85,6 +126,7 @@ public class ServiceApiImplFiles implements ServiceAPI {
     private Spectacle getSpectacle(@NotNull String[] values) {
 
         Spectacle spectacle = new Spectacle();
+        spectacle.setId(spectaclesRepository.findAll().size() + 1 + "");
         spectacle.setName(values[1]);
         spectacle.setCast(new HashSet<>(Arrays.asList(values[2].split("\\| "))));
         spectacle.setDuration(values[3]);
@@ -98,11 +140,10 @@ public class ServiceApiImplFiles implements ServiceAPI {
 
     @Override
     public void displaySpectacles() {
-        writeString("Display Spectacles");
         spectaclesRepository.findAll().forEach(System.out::println);
     }
 
-    private void writeString(String data) {
+    public void writeString(String data) {
 
         Date from = Date.from(Instant.now());
 
@@ -117,33 +158,70 @@ public class ServiceApiImplFiles implements ServiceAPI {
         sb.append(id);
         sb.append(", "+ data + ", ");
         sb.append(from.toString() + '\n');
-        writeDataToCsv(sb.toString());
+        writeDataToCsv(sb.toString(), writeCSV);
     }
 
     @Override
     public void selectSpectacle(int index) throws ArrayIndexOutOfBoundsException{
-        writeString("Select Spectacle");
-        currentSpectacle = spectaclesRepository.findByIndex(index);
+        currentSpectacle = spectaclesRepository.findByIndex(index - 1);
         System.out.println("You choose: " + currentSpectacle.getName());
     }
 
     @Override
     public void showSeatsForSpectacle() {
-        writeString("Show seats for spectacle");
         System.out.println("  Scene  \n");
         currentSpectacle.showSeats();
     }
 
     @Override
     public void addSpectacle() {
-        writeString("Add spectacle");
-        spectaclesRepository.addSpectacle(new Movie("Aquamannnn", new HashSet<>(asList("Jason Mamoa", "Amber Heard", "Nicole Kidman")),
-                "2h22", Genres.SCIFI, "Cinemacity MegasaMall", 15,10, MovieType.MOVIE4DX, 7.3));
+        System.out.println("Do you want to add Movie or Theatre? Please type M/T");
+        String type = scanner.nextLine();
+        if("M".equals(type.toUpperCase())){
+            // Read A movie
+            try{
+                Files.lines(addMoviePath).skip(idNewMovie).limit(1).forEach(e -> {
+                    String[] values = e.split(", ");
+                    Spectacle spectacle = getSpectacle(values);
+
+                    Movie movie = new Movie(spectacle.getId(), spectacle.getName(), spectacle.getCast(), spectacle.getDuration(), spectacle.getGenre(),
+                            spectacle.getLocation(),spectacle.getNrSeats(), spectacle.getNrVipSeats(), MovieType.valueOf(values[8]),
+                            Double.parseDouble(values[9]));
+
+                    spectaclesRepository.addSpectacle(movie);
+                    idNewMovie++;
+
+                });
+            }catch (IOException ex){
+                ex.printStackTrace();
+            }
+
+        }
+        else if("T".equals(type.toUpperCase())){
+            // Read a theatre
+            try {
+                Files.lines(addTheatrePath).skip(idNewTheatre).limit(1).forEach(e ->{
+                    String [] values = e.split(", ");
+                    Spectacle spectacle = getSpectacle(values);
+
+                    Theatre theatre = new Theatre(spectacle.getId(), spectacle.getName(), spectacle.getCast(),
+                            spectacle.getDuration(), spectacle.getGenre(), spectacle.getLocation(), spectacle.getNrSeats(),
+                            spectacle.getNrVipSeats(), new ArrayList<>(Arrays.asList(values[8].split("\\|"))), values[9]);
+
+                    spectaclesRepository.addSpectacle(theatre);
+                    idNewTheatre++;
+                });
+            }catch (IOException exp){
+                exp.printStackTrace();
+            }
+
+        }else {
+            throw new RuntimeException("Wrong type!");
+        }
     }
 
     @Override
     public void addClientForSpectacle(Client client) {
-        writeString("Add Client for Spectacle");
         ArrayList<? extends Seat> seats = currentSpectacle.getSeats();
         for(Integer integer : client.getSeats()){
             Seat s = seats.get(integer - 1);
@@ -166,8 +244,6 @@ public class ServiceApiImplFiles implements ServiceAPI {
             Seat s = seats.get(integer - 1);
             s.setOccupied(true);
         }
-
-        showSeatsForSpectacle();
     }
 
     private ArrayList<Integer> getSeats(boolean isVip) throws TooManySeatsException {
@@ -236,7 +312,6 @@ public class ServiceApiImplFiles implements ServiceAPI {
     @Override
     public Client createClient() {
 
-        writeString("Create Client");
         Client client = null;
 
 
@@ -320,6 +395,8 @@ public class ServiceApiImplFiles implements ServiceAPI {
             while(true){
                 try{
                     addClientForSpectacle(client);
+                    client.setSpectacle(currentSpectacle.getName());
+                    writeDataToCsv(clientToString(client), clientPath);
                     return client;
                 }
                 catch (OccupiedSeatException exception){
@@ -348,9 +425,36 @@ public class ServiceApiImplFiles implements ServiceAPI {
 
     }
 
+    private String clientToString(Client client) {
+        StringBuilder sb = new StringBuilder();
+        try{
+            Files.lines(clientPath).skip(1).forEach(e -> idClient = Long.parseLong(e.split(", ")[0]));
+        }
+        catch (IOException exp){
+            exp.printStackTrace();
+        }
+        idClient++;
+
+        sb.append(idClient + ", ");
+        sb.append(client.getName()+ ", ");
+
+        client.getSeats().forEach(e -> sb.append(e + "| "));
+        sb.delete(sb.length()-2, sb.length());
+        sb.append(", " + client.getPaymentType() + ", " + client.getSpectacle());
+
+        if(client instanceof VipClient){
+            sb.append(", true\n");
+        }
+        else{
+            sb.append(", false\n");
+        }
+
+        return sb.toString();
+    }
+
+
     @Override
     public void exitApp() {
-        writeString("Exit");
         String yes;
         System.out.println("Are you sure you want to leave? Y/N");
         yes = scanner.nextLine().toUpperCase();
@@ -365,7 +469,8 @@ public class ServiceApiImplFiles implements ServiceAPI {
 
     @Override
     public int numberOfSpectacles() {
-        writeString("Number of spectacles");
         return spectaclesRepository.findAll().size();
     }
+
+
 }

@@ -12,6 +12,7 @@ import static service.ServiceAPI.ANSI_RESET;
 public class Spectacle {
 
     protected String name;
+    protected String id;
     protected Set<String> cast;
     protected String duration;
     protected Genres genre;
@@ -24,7 +25,8 @@ public class Spectacle {
     public Spectacle() {
     }
 
-    public Spectacle(String name, Set<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats) {
+    public Spectacle(String id, String name, Set<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats) {
+        this.id = id;
         this.name = name;
         this.cast = cast;
         this.duration = duration;
@@ -108,6 +110,14 @@ public class Spectacle {
 
     public void setSeats(ArrayList<Seat> seats) {
         this.seats = seats;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     @Override

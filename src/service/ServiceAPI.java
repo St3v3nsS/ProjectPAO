@@ -15,5 +15,6 @@ public interface ServiceAPI {
     void addClientForSpectacle(Client client);
     void exitApp();
     Client createClient();
+    void writeString(String data);
     int numberOfSpectacles();
 }

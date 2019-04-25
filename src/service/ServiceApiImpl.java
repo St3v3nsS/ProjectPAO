@@ -23,11 +23,11 @@ public class ServiceApiImpl implements ServiceAPI{
 
     public ServiceApiImpl() {
         spectacles = new ArrayList<>();
-        spectacles.add(new Movie("Bohemian Rhapsody", new HashSet<>(asList("Rami Malek", "Luay Boynten", "Ben Hardy",
+        spectacles.add(new Movie("1", "Bohemian Rhapsody", new HashSet<>(asList("Rami Malek", "Luay Boynten", "Ben Hardy",
                 "Mike Myers")), "2h13", Genres.DRAMA,
                 "AFI IMAX", 15, 5, MovieType.IMAX, 8.1));
-        spectacles.add(new Theatre("Bani din cer", new HashSet<>(asList("Mihai Bendeac", "Mihaela Teleoaca", "Delia Natea")),
-                "1h30", Genres.COMEDY, "Teatrul de comedie", 10, 5, new ArrayList<>(asList("geanta", "casa")), "Ray Cooney"));
+        spectacles.add(new Theatre("2", "Bani din cer",
+                new HashSet<>(asList("Mihai Bendeac", "Mihaela Teleoaca", "Delia Natea")), "1h30", Genres.COMEDY, "Teatrul de comedie", 10, 5, new ArrayList<>(asList("geanta", "casa")), "Ray Cooney"));
     }
 
     @Override
@@ -50,8 +50,8 @@ public class ServiceApiImpl implements ServiceAPI{
 
     @Override
     public void addSpectacle() {
-        spectacles.add(new Movie("Aquaman", new HashSet<>(asList("Jason Mamoa", "Amber Heard", "Nicole Kidman")),
-                "2h22", Genres.SCIFI, "Cinemacity MegaMall", 15,10, MovieType.MOVIE4DX, 7.3));
+        spectacles.add(new Movie("3", "Aquaman", new HashSet<>(asList("Jason Mamoa", "Amber Heard", "Nicole Kidman")),
+                "2h22", Genres.SCIFI, "Cinemacity MegaMall", 15,10, MovieType.MOVIE4DX, 7.3 ));
     }
 
     @Override
@@ -269,6 +269,11 @@ public class ServiceApiImpl implements ServiceAPI{
         else{
             createClient();
         }
+    }
+
+    @Override
+    public void writeString(String data) {
+        System.out.println("You cannot use this method!");
     }
 
     @Override

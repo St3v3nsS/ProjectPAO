@@ -10,8 +10,8 @@ public class Theatre extends Spectacle {
     private ArrayList<String> scenery;
     private String author;
 
-    public Theatre(String name, Set<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats, ArrayList<String> scenery, String author) {
-        super(name, cast, duration, genre, location, nrSeats, nrVipSeats);
+    public Theatre(String id, String name, Set<String> cast, String duration, Genres genre, String location, int nrSeats, int nrVipSeats, ArrayList<String> scenery, String author) {
+        super(id,name, cast, duration, genre, location, nrSeats, nrVipSeats);
         this.scenery = scenery;
         this.author = author;
     }
@@ -19,13 +19,14 @@ public class Theatre extends Spectacle {
     @Override
     public String toString() {
         return "Theatre{" +
-                "scenery=" + scenery +
-                ", author='" + author + '\'' +
+                "id="+id +
                 ", name='" + name + '\'' +
                 ", cast=" + cast +
                 ", duration='" + duration + '\'' +
                 ", genre=" + genre +
                 ", location='" + location + '\'' +
+                ", scenery=" + scenery +
+                ", author='" + author + '\'' +
                 '}';
     }
 

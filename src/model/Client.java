@@ -9,6 +9,7 @@ public class Client implements Comparable{
     protected String name;
     protected ArrayList<Integer> seats;
     protected PaymentType paymentType;
+    protected String spectacle;
 
     public Client() {
         seats = new ArrayList<>();
@@ -47,6 +48,14 @@ public class Client implements Comparable{
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setSpectacle(String spectacle) {
+        this.spectacle = spectacle;
+    }
+
+    public String getSpectacle() {
+        return spectacle;
     }
 
     @Override
