@@ -3,11 +3,13 @@ package model;
 import enums.PaymentType;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Client implements Comparable{
 
+    private double toPay = 0;
     protected String name;
-    protected ArrayList<Integer> seats;
+    protected List<Integer> seats;
     protected PaymentType paymentType;
     protected String spectacle;
 
@@ -15,7 +17,7 @@ public class Client implements Comparable{
         seats = new ArrayList<>();
     }
 
-    public Client(String name, ArrayList<Integer> seats) {
+    public Client(String name, List<Integer> seats) {
         this.name = name;
         this.seats = seats;
     }
@@ -26,7 +28,7 @@ public class Client implements Comparable{
         this.paymentType = paymentType;
     }
 
-    public ArrayList<Integer> getSeats() {
+    public List<Integer> getSeats() {
         return seats;
     }
 
@@ -70,5 +72,13 @@ public class Client implements Comparable{
                 ", seats=" + seats +
                 ", paymentType=" + paymentType +
                 '}';
+    }
+
+    public void setToPay(double value){
+        toPay = value;
+    }
+
+    public double getToPay(){
+        return toPay;
     }
 }

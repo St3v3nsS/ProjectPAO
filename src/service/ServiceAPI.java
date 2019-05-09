@@ -1,6 +1,15 @@
 package service;
 
+import exceptions.NoNameException;
+import exceptions.OccupiedSeatException;
+import exceptions.TooManySeatsException;
 import model.Client;
+import model.Seat;
+import model.Spectacle;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public interface ServiceAPI {
 
@@ -12,9 +21,16 @@ public interface ServiceAPI {
     void selectSpectacle(int index);
     void showSeatsForSpectacle();
     void addSpectacle();
+    void printTotalToPay();
     void addClientForSpectacle(Client client);
     void exitApp();
     Client createClient();
     void writeString(String data);
     int numberOfSpectacles();
+    List<String> getSpectaclesName();
+    Spectacle getSelectedSpectacle(int index);
+    List<Seat> getSpectacleSeats(int index);
+    Client createClient(String name, String vip, List<Integer> selectedSeats) throws NoNameException, TooManySeatsException, OccupiedSeatException;
+    double getTotalToPay();
+
 }

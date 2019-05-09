@@ -1,5 +1,6 @@
 package service;
 
+import exceptions.NoNameException;
 import model.*;
 import enums.Genres;
 import enums.MovieType;
@@ -18,8 +19,9 @@ public class ServiceApiImpl implements ServiceAPI{
 
     private Client currentClient;
     private Spectacle currentSpectacle;
-    private ArrayList<Spectacle> spectacles;
-    Scanner scanner = new Scanner(System.in);
+    private List<Spectacle> spectacles;
+    private Scanner scanner = new Scanner(System.in);
+    private double toPay;
 
     public ServiceApiImpl() {
         spectacles = new ArrayList<>();
@@ -43,7 +45,7 @@ public class ServiceApiImpl implements ServiceAPI{
 
     @Override
     public void showSeatsForSpectacle() {
-
+        writeString("Show seats for spectacle");
         System.out.println("  Scene  \n");
         currentSpectacle.showSeats();
     }
@@ -56,7 +58,7 @@ public class ServiceApiImpl implements ServiceAPI{
 
     @Override
     public void addClientForSpectacle(Client client) throws OccupiedSeatException {
-        ArrayList<? extends Seat> seats = currentSpectacle.getSeats();
+        List<Seat> seats = currentSpectacle.getSeats();
         for(Integer integer : client.getSeats()){
             Seat s = seats.get(integer - 1);
             if(s.isOccupied()){
@@ -75,9 +77,12 @@ public class ServiceApiImpl implements ServiceAPI{
             }
 
         }
+
+        toPay = 0.0;
         for(Integer integer : client.getSeats()){
             Seat s = seats.get(integer - 1);
             s.setOccupied(true);
+            toPay += s.getPrice();
         }
 
         showSeatsForSpectacle();
@@ -172,6 +177,9 @@ public class ServiceApiImpl implements ServiceAPI{
                 try {
                     seats = getSeats(isVip);
                     client = new VipClient(name, seats);
+
+
+
                     break;
                 }catch (TooManySeatsException exception){
                     System.err.println(exception.getMessage());
@@ -196,7 +204,7 @@ public class ServiceApiImpl implements ServiceAPI{
                 try {
                     seats = getSeats(isVip);
                     client = new Client(name, seats);
-
+                    client.setToPay(toPay);
                     PaymentType paymentType;
                     int payCount = 1;
                     int maxPayCount = 3;
@@ -279,5 +287,35 @@ public class ServiceApiImpl implements ServiceAPI{
     @Override
     public int numberOfSpectacles() {
         return spectacles.size();
+    }
+
+    @Override
+    public List<String> getSpectaclesName() {
+        return null;
+    }
+
+    @Override
+    public Spectacle getSelectedSpectacle(int index) {
+        return null;
+    }
+
+    @Override
+    public void printTotalToPay() {
+        System.out.println(currentClient.getToPay());
+    }
+
+    @Override
+    public List<Seat> getSpectacleSeats(int index) {
+        return null;
+    }
+
+    @Override
+    public Client createClient(String name, String vip, List<Integer> selectedSeats) throws NoNameException, TooManySeatsException, OccupiedSeatException {
+        return null;
+    }
+
+    @Override
+    public double getTotalToPay() {
+        return 0;
     }
 }

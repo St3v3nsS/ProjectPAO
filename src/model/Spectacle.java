@@ -3,6 +3,7 @@ package model;
 import enums.Genres;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 import static service.ServiceAPI.ANSI_GREEN;
@@ -19,7 +20,7 @@ public class Spectacle {
     protected String location;
     protected int nrSeats;
     protected int nrVipSeats;
-    protected ArrayList<Seat> seats;
+    protected List<Seat> seats;
 
 
     public Spectacle() {
@@ -104,7 +105,7 @@ public class Spectacle {
         this.nrVipSeats = nrVipSeats;
     }
 
-    public ArrayList<Seat> getSeats() {
+    public List<Seat> getSeats() {
         return seats;
     }
 

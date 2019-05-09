@@ -3,6 +3,7 @@ package service;
 import enums.Genres;
 import enums.MovieType;
 import enums.PaymentType;
+import exceptions.NoNameException;
 import exceptions.OccupiedSeatException;
 import exceptions.PaymentTypeException;
 import exceptions.TooManySeatsException;
@@ -20,14 +21,16 @@ import java.util.stream.IntStream;
 
 public class ServiceApiImplFiles implements ServiceAPI {
 
-    private SpectaclesRepository spectaclesRepository = new SpectaclesRepository();
-    private ClientsRepository clientsRepository = new ClientsRepository();
-    private Spectacle currentSpectacle;
-    private Scanner scanner = new Scanner(System.in);
     private static long id = 0;
     private static long idClient = 0;
     private static long idNewMovie = 1;
     private static long idNewTheatre = 1;
+    private double toPay = 0.0;
+
+    private SpectaclesRepository spectaclesRepository = new SpectaclesRepository();
+    private ClientsRepository clientsRepository = new ClientsRepository();
+    private Spectacle currentSpectacle;
+    private Scanner scanner = new Scanner(System.in);
     private Path moviePath = Paths.get("src/resources/movies.csv");
     private Path theatrePath = Paths.get("src/resources/theatres.csv");
     private Path writeCSV = Paths.get("src/resources/actions.csv");
@@ -140,6 +143,7 @@ public class ServiceApiImplFiles implements ServiceAPI {
 
     @Override
     public void displaySpectacles() {
+        writeString("Choose spectacle");
         spectaclesRepository.findAll().forEach(System.out::println);
     }
 
@@ -163,18 +167,21 @@ public class ServiceApiImplFiles implements ServiceAPI {
 
     @Override
     public void selectSpectacle(int index) throws ArrayIndexOutOfBoundsException{
+        writeString("Select spectacle");
         currentSpectacle = spectaclesRepository.findByIndex(index - 1);
         System.out.println("You choose: " + currentSpectacle.getName());
     }
 
     @Override
     public void showSeatsForSpectacle() {
+        writeString("Show seats for spectacle");
         System.out.println("  Scene  \n");
         currentSpectacle.showSeats();
     }
 
     @Override
     public void addSpectacle() {
+        writeString("Add spectacle");
         System.out.println("Do you want to add Movie or Theatre? Please type M/T");
         String type = scanner.nextLine();
         if("M".equals(type.toUpperCase())){
@@ -222,7 +229,8 @@ public class ServiceApiImplFiles implements ServiceAPI {
 
     @Override
     public void addClientForSpectacle(Client client) {
-        ArrayList<? extends Seat> seats = currentSpectacle.getSeats();
+        writeString("Add client for spectacle");
+        List<Seat> seats = currentSpectacle.getSeats();
         for(Integer integer : client.getSeats()){
             Seat s = seats.get(integer - 1);
             if(s.isOccupied()){
@@ -240,9 +248,12 @@ public class ServiceApiImplFiles implements ServiceAPI {
             }
 
         }
+
+        toPay = 0.0;
         for(Integer integer : client.getSeats()){
             Seat s = seats.get(integer - 1);
             s.setOccupied(true);
+            toPay += s.getPrice();
         }
     }
 
@@ -313,7 +324,7 @@ public class ServiceApiImplFiles implements ServiceAPI {
     public Client createClient() {
 
         Client client = null;
-
+        writeString("Create Client");
 
         String name, vip, yesNo;
         ArrayList<Integer> seats;
@@ -338,6 +349,7 @@ public class ServiceApiImplFiles implements ServiceAPI {
                 try {
                     seats = getSeats(isVip);
                     client = new VipClient(name, seats);
+                    client.setToPay(toPay);
                     break;
                 }catch (TooManySeatsException exception){
                     System.err.println(exception.getMessage());
@@ -362,8 +374,10 @@ public class ServiceApiImplFiles implements ServiceAPI {
                 try {
                     seats = getSeats(isVip);
                     client = new Client(name, seats);
-
                     PaymentType paymentType;
+
+                    client.setToPay(toPay);
+
                     int payCount = 1;
                     int maxPayCount = 3;
                     while(true){
@@ -454,6 +468,17 @@ public class ServiceApiImplFiles implements ServiceAPI {
 
 
     @Override
+    public List<String> getSpectaclesName() {
+        writeString("Get spectacles name");
+        ArrayList<String> specsName = new ArrayList<>();
+        spectaclesRepository.findAll().forEach(e->{
+            specsName.add(e.getName());
+        });
+
+        return specsName;
+    }
+
+    @Override
     public void exitApp() {
         String yes;
         System.out.println("Are you sure you want to leave? Y/N");
@@ -472,5 +497,70 @@ public class ServiceApiImplFiles implements ServiceAPI {
         return spectaclesRepository.findAll().size();
     }
 
+    @Override
+    public void printTotalToPay() {
+        System.out.println("Last client have to pay: " + toPay);
+    }
 
+    @Override
+    public Spectacle getSelectedSpectacle(int index) {
+        writeString("Get selected spectacle");
+        return spectaclesRepository.findByIndex(index);
+    }
+
+    @Override
+    public List<Seat> getSpectacleSeats(int index) {
+        writeString("Get spectacle seats");
+        return spectaclesRepository.findByIndex(index).getSeats();
+    }
+
+    private ArrayList<Integer> getSelectedSeats(ArrayList<Integer> seats, boolean isVip) throws TooManySeatsException{
+
+        int nrSeats = seats.size();
+
+        if(nrSeats > getNumberSeats(isVip)){
+            throw new TooManySeatsException("Too many seats!");
+        }
+
+
+        return seats;
+
+    }
+
+    @Override
+    public Client createClient(String name, String vip, List<Integer> selectedSeats) throws NoNameException, TooManySeatsException, OccupiedSeatException {
+        writeString("Create Client");
+
+        Client client = null;
+        ArrayList<Integer> seats;
+
+        if(name == null){
+            throw new NoNameException("Null name");
+        }
+
+        if (vip.equals("YES")){
+
+            seats = getSelectedSeats(new ArrayList<>(selectedSeats), true);
+            client = new VipClient(name, seats);
+
+
+
+        } else {
+
+            seats = getSelectedSeats(new ArrayList<>(selectedSeats), false);
+            client = new Client(name, seats);
+        }
+
+        addClientForSpectacle(client);
+        client.setSpectacle(currentSpectacle.getName());
+        writeDataToCsv(clientToString(client), clientPath);
+
+        return client;
+    }
+
+    @Override
+    public double getTotalToPay() {
+        writeString("Get total to pay for spectacle");
+        return toPay;
+    }
 }

@@ -15,24 +15,25 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int value = 0;
 
-        while (value != 8){
+        App myApp = new App();
+
+        while (value != 9){
             System.out.println("\t\tMENIU\n" +
                     "1. Display spectacles\n" +
                     "2. Choose a spectacle\n" +
                     "3. Display seats for spectacle\n" +
                     "4. Add new client\n" +
-                    "5. Sort new clients\n"+
-                    "6. Add new spectacle\n" +
-                    "7. Show total number of spectacles\n"+
-                    "8. Exit\n");
+                    "5. Show amount to pay\n" +
+                    "6. Sort new clients\n" +
+                    "7. Add new spectacle\n" +
+                    "8. Show total number of spectacles\n"+
+                    "9. Exit\n");
             value = scanner.nextInt();scanner.nextLine();
             switch (value){
                 case 1:
-                    serviceAPI.writeString("Display spectacles");
                     serviceAPI.displaySpectacles();
                     break;
                 case 2:
-                    serviceAPI.writeString("Choose spectacle");
                     System.out.println("Enter id: ");
                     int index = scanner.nextInt(); scanner.nextLine();
 
@@ -44,19 +45,21 @@ public class Main {
                     }
                     break;
                 case 3:
-                    serviceAPI.writeString("Show seats for spectacle");
                     serviceAPI.showSeatsForSpectacle();
                     break;
                 case 4:
-                    serviceAPI.writeString("Add client for spectacle");
                     clients.add(serviceAPI.createClient());
                     break;
                 case 5:
+                    serviceAPI.writeString("Show amount to pay");
+                    serviceAPI.printTotalToPay();
+                    break;
+                case 6:
                     serviceAPI.writeString("Sorting new clients");
                     Collections.sort(clients);
                     System.out.println("New clients sorted alphabetically: " + clients);
                     break;
-                case 6:
+                case 7:
                     serviceAPI.writeString("Add new spectacle");
                     System.out.println("Login into Admin...\nEnter password for admin (No security purposes): ");
                     String psw = scanner.nextLine();
@@ -67,11 +70,11 @@ public class Main {
                         System.out.println(ServiceAPI.ANSI_RED + "Wrong password! Good luck next time!" + ServiceAPI.ANSI_RESET);
                     }
                     break;
-                case 7:
+                case 8:
                     serviceAPI.writeString("Show number of spectacles");
                     System.out.println("There are a total of " + serviceAPI.numberOfSpectacles() + " sectacles today!");
                     break;
-                case 8:
+                case 9:
                     serviceAPI.writeString("Exit");
                     serviceAPI.exitApp();
                     break;
