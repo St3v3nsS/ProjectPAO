@@ -3,10 +3,7 @@ package service;
 import enums.Genres;
 import enums.MovieType;
 import enums.PaymentType;
-import exceptions.NoNameException;
-import exceptions.OccupiedSeatException;
-import exceptions.PaymentTypeException;
-import exceptions.TooManySeatsException;
+import exceptions.*;
 import model.*;
 import org.jetbrains.annotations.NotNull;
 import repository.ClientsRepository;
@@ -562,5 +559,63 @@ public class ServiceApiImplFiles implements ServiceAPI {
     public double getTotalToPay() {
         writeString("Get total to pay for spectacle");
         return toPay;
+    }
+
+    @Override
+    public List<Movie> getNextMovies() {
+        ArrayList<Movie> movies = new ArrayList<>();
+        try{
+            Files.lines(addMoviePath).skip(1).forEach(e -> {
+                String[] values = e.split(", ");
+                Spectacle spectacle = getSpectacle(values);
+
+                Movie movie = new Movie(spectacle.getId(), spectacle.getName(), spectacle.getCast(), spectacle.getDuration(), spectacle.getGenre(),
+                        spectacle.getLocation(),spectacle.getNrSeats(), spectacle.getNrVipSeats(), MovieType.valueOf(values[8]),
+                        Double.parseDouble(values[9]));
+
+                try{
+                    spectaclesRepository.findByName(spectacle.getName());
+                }catch (SpectacleNotFoundException ex){
+                    movies.add(movie);
+                }
+
+            });
+        }catch (IOException ex){
+            ex.printStackTrace();
+        }
+
+        return movies;
+    }
+
+    @Override
+    public List<Theatre> getNextTheatres() {
+        ArrayList<Theatre> theatres = new ArrayList<>();
+
+        try {
+            Files.lines(addTheatrePath).skip(1).forEach(e ->{
+                String [] values = e.split(", ");
+                Spectacle spectacle = getSpectacle(values);
+
+                Theatre theatre = new Theatre(spectacle.getId(), spectacle.getName(), spectacle.getCast(),
+                        spectacle.getDuration(), spectacle.getGenre(), spectacle.getLocation(), spectacle.getNrSeats(),
+                        spectacle.getNrVipSeats(), new ArrayList<>(Arrays.asList(values[8].split("\\|"))), values[9]);
+
+                try{
+                    spectaclesRepository.findByName(spectacle.getName());
+                }catch (SpectacleNotFoundException ex){
+                    theatres.add(theatre);
+                }
+            });
+        }catch (IOException exp){
+            exp.printStackTrace();
+        }
+
+        return theatres;
+
+    }
+
+    @Override
+    public void addSpectacle(Spectacle spectacle) {
+        spectaclesRepository.addSpectacle(spectacle);
     }
 }

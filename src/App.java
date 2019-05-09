@@ -1,9 +1,7 @@
 import exceptions.NoNameException;
 import exceptions.OccupiedSeatException;
 import exceptions.TooManySeatsException;
-import model.Client;
-import model.Seat;
-import model.Spectacle;
+import model.*;
 import org.jetbrains.annotations.NotNull;
 import service.ServiceAPI;
 import service.ServiceApiImplFiles;
@@ -18,6 +16,7 @@ import java.awt.event.FocusListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class App {
 
@@ -29,6 +28,8 @@ public class App {
     public static final String ADD_SPECTACLE = "Add spectacle";
     public static final String ENTER_PASSWORD = "Enter Password";
     public static final String OK = "OK";
+    public static final String MOVIES = "Movies";
+    public static final String THEATRES = "Theatres";
 
     private ServiceAPI serviceAPI;
     private String lastPanel;
@@ -78,6 +79,103 @@ public class App {
         mainFrame.add(mainPanel, BorderLayout.CENTER);
         mainFrame.setVisible(true);
 
+    }
+
+    private void createTheatrePanel() {
+
+        int numOfTheatres = serviceAPI.getNextTheatres().size();
+        List<String> specsNum = serviceAPI.getNextTheatres()
+                .stream()
+                .map(Theatre::getName)
+                .collect(Collectors.toList());
+
+        System.out.println(specsNum);
+
+        JPanel theatrePanel = new JPanel();
+        theatrePanel.setLayout(new GridBagLayout());
+        GridBagConstraints constraints = new GridBagConstraints();
+        constraints.anchor = GridBagConstraints.CENTER;
+        constraints.insets = new Insets(10,10,10,10);
+
+        checkForNoMovies(specsNum, theatrePanel);
+
+        for(int i = 0; i < numOfTheatres; i++){
+
+            JButton button = new JButton();
+            constraints.gridy = i + 1;
+            int finalI = i;
+
+            button.setMargin(new Insets(10,10,10,10));
+            button.setPreferredSize(new Dimension(300, 30));
+            button.addActionListener(ev ->{
+                serviceAPI.addSpectacle(serviceAPI.getNextTheatres().get(finalI));
+                JOptionPane.showMessageDialog(mainFrame, "Successfully added " + specsNum.get(finalI));
+                CardLayout cl = (CardLayout) mainPanel.getLayout();
+                cl.show(mainPanel, ACTIONS);
+            });
+            theatrePanel.add(button, constraints);
+            button.setText(specsNum.get(i));
+        }
+
+        theatrePanel.setName(THEATRES);
+        theatrePanel.setVisible(true);
+        mainPanel.add(theatrePanel, THEATRES);
+    }
+
+    private void createMoviePanel() {
+        int numOfMovies = serviceAPI.getNextMovies().size();
+        List<String> specsNum = serviceAPI.getNextMovies()
+                .stream()
+                .map(Movie::getName)
+                .collect(Collectors.toList());
+
+        System.out.println(specsNum);
+
+        JPanel moviePanel = new JPanel();
+        moviePanel.setLayout(new GridBagLayout());
+        GridBagConstraints constraints = new GridBagConstraints();
+        constraints.anchor = GridBagConstraints.CENTER;
+        constraints.insets = new Insets(10,10,10,10);
+
+        moviePanel = checkForNoMovies(specsNum, moviePanel);
+
+        for(int i = 0; i < numOfMovies; i++){
+
+            JButton button = new JButton();
+
+            int finalI = i;
+            constraints.gridy = i+1;
+
+            button.setPreferredSize(new Dimension(300, 30));
+            button.setMargin(new Insets(10,10,10,10));
+            button.addActionListener(ev->{
+                serviceAPI.addSpectacle(serviceAPI.getNextMovies().get(finalI));
+                JOptionPane.showMessageDialog(mainFrame, "Successfully added " + specsNum.get(finalI));
+                CardLayout cl = (CardLayout) mainPanel.getLayout();
+                cl.show(mainPanel, ACTIONS);
+            });
+            moviePanel.add(button, constraints);
+            button.setText(specsNum.get(i));
+        }
+
+        moviePanel.setName(MOVIES);
+        moviePanel.setVisible(true);
+        mainPanel.add(moviePanel, MOVIES);
+
+    }
+
+    private JPanel checkForNoMovies(List<String> specsNum, JPanel moviePanel) {
+        if(specsNum.size() == 0){
+            JLabel label = new JLabel("Nothing new to add!");
+            moviePanel.setLayout(new GridBagLayout());
+            GridBagConstraints constraints = new GridBagConstraints();
+            constraints.anchor = GridBagConstraints.CENTER;
+            label.setFont(label.getFont().deriveFont(20.0f));
+
+            moviePanel.add(label, constraints);
+        }
+
+        return moviePanel;
     }
 
     private void createAddSpectaclePanel() {
@@ -177,6 +275,19 @@ public class App {
                     int returnValue = JOptionPane.showOptionDialog(mainFrame, "What do you want to add?", "Add spectacle",
                             JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, null, types, types[0]);
                     System.out.println(returnValue);
+                    if (returnValue == 0){
+                        createMoviePanel();
+                        CardLayout cl = (CardLayout)mainPanel.getLayout();
+                        cl.show(mainPanel, MOVIES);
+                    }
+                    else if(returnValue == 1){
+                        createTheatrePanel();
+                        CardLayout cl = (CardLayout)mainPanel.getLayout();
+                        cl.show(mainPanel,  THEATRES);
+                    }
+                    else{
+                        System.out.println("dismiss");
+                    }
                 } else {
                     JOptionPane.showMessageDialog(mainFrame,
                             "Invalid password. Try again.",

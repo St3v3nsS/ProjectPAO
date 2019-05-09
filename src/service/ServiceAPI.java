@@ -3,9 +3,7 @@ package service;
 import exceptions.NoNameException;
 import exceptions.OccupiedSeatException;
 import exceptions.TooManySeatsException;
-import model.Client;
-import model.Seat;
-import model.Spectacle;
+import model.*;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
@@ -32,5 +30,7 @@ public interface ServiceAPI {
     List<Seat> getSpectacleSeats(int index);
     Client createClient(String name, String vip, List<Integer> selectedSeats) throws NoNameException, TooManySeatsException, OccupiedSeatException;
     double getTotalToPay();
-
+    List<Movie> getNextMovies();
+    List<Theatre> getNextTheatres();
+    void addSpectacle(Spectacle spectacle);
 }

@@ -10,7 +10,7 @@ public class Client implements Comparable{
     private double toPay = 0;
     protected String name;
     protected List<Integer> seats;
-    protected PaymentType paymentType;
+    protected PaymentType paymentType = PaymentType.CASH;
     protected String spectacle;
 
     public Client() {

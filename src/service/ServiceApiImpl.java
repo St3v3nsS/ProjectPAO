@@ -318,4 +318,19 @@ public class ServiceApiImpl implements ServiceAPI{
     public double getTotalToPay() {
         return 0;
     }
+
+    @Override
+    public List<Movie> getNextMovies() {
+        return null;
+    }
+
+    @Override
+    public List<Theatre> getNextTheatres() {
+        return null;
+    }
+
+    @Override
+    public void addSpectacle(Spectacle spectacle) {
+
+    }
 }
