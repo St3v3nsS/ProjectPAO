@@ -1,6 +1,0 @@
-id, name, cast, duration, genre, location, normalSeats, vipSeats, type, imdbNote
-1, Bohemian Rhapsody, Rami Malek| Luay Boynten| Ben Hardy| Mike Myers, 2h13, DRAMA, AFI IMAX, 15, 5, IMAX, 8.1
-2, Aquaman, Jason Mamoa| Amber Heard| Nicole Kidman, 2h22, SCIFI, Cinemacity MegaMall, 15, 10, MOVIE4DX, 7.3
-3, Avengers: Endgame, Chris Hemsworth| Robert Downey Jr.| Scarlett Johansson| Brie Larson| Chris Evans, 3h, ACTION, AFI IMAX, 20, 20, IMAX, 9.4
-4, Us, Winston Duke| Lupita Nyong'o| Elisabeth Moss, 1h56, HORROR, Cinemacity ParkLake, 15, 10, MOVIE2D, 7.4
-5, A star is Born, Lady Gaga| Bradley Cooper| Sam Elliott, 2h16, ROMANCE, Cinemacity MegaMall, 15, 15, MOVIE2D, 7.8

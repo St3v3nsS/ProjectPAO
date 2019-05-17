@@ -1,0 +1,1864 @@
+id,nume_actiune,timestamp,thread_name
+1,Add client for spectacle,Wed May 15 20:46:53 EEST 2019,main
+2,Add client for spectacle,Wed May 15 20:47:37 EEST 2019,main
+3,Add client for spectacle,Wed May 15 20:47:37 EEST 2019,main
+4,Add client for spectacle,Wed May 15 20:47:37 EEST 2019,main
+5,Add client for spectacle,Wed May 15 20:47:38 EEST 2019,main
+6,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+7,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+8,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+9,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+10,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+11,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+12,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+13,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+14,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+15,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+16,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+17,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+18,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+19,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+20,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+21,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+22,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+23,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+24,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+25,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+26,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+27,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+28,Add client for spectacle,Wed May 15 20:48:32 EEST 2019,main
+29,Get spectacles name,Wed May 15 20:48:33 EEST 2019,main
+30,Select spectacle,Wed May 15 20:49:54 EEST 2019,AWT-EventQueue-0
+31,Get selected spectacle,Wed May 15 20:49:54 EEST 2019,AWT-EventQueue-0
+32,Get spectacle seats,Wed May 15 20:49:54 EEST 2019,AWT-EventQueue-0
+33,Get total to pay for spectacle,Wed May 15 20:50:07 EEST 2019,AWT-EventQueue-0
+34,Create Client,Wed May 15 20:50:18 EEST 2019,AWT-EventQueue-0
+35,Add client for spectacle,Wed May 15 20:50:18 EEST 2019,AWT-EventQueue-0
+36,Get total to pay for spectacle,Wed May 15 20:50:59 EEST 2019,AWT-EventQueue-0
+37,Select spectacle,Wed May 15 20:51:02 EEST 2019,AWT-EventQueue-0
+38,Get selected spectacle,Wed May 15 20:51:02 EEST 2019,AWT-EventQueue-0
+39,Get spectacle seats,Wed May 15 20:51:02 EEST 2019,AWT-EventQueue-0
+40,Create Client,Wed May 15 20:51:10 EEST 2019,AWT-EventQueue-0
+41,Add client for spectacle,Wed May 15 20:51:10 EEST 2019,AWT-EventQueue-0
+42,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+43,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+44,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+45,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+46,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+47,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+48,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+49,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+50,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+51,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+52,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+53,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+54,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+55,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+56,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+57,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+58,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+59,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+60,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+61,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+62,Add client for spectacle,Wed May 15 20:53:03 EEST 2019,main
+63,Get spectacles name,Wed May 15 20:53:04 EEST 2019,main
+64,Select spectacle,Wed May 15 20:53:08 EEST 2019,AWT-EventQueue-0
+65,Get selected spectacle,Wed May 15 20:53:08 EEST 2019,AWT-EventQueue-0
+66,Get spectacle seats,Wed May 15 20:53:08 EEST 2019,AWT-EventQueue-0
+67,Get total to pay for spectacle,Wed May 15 20:53:19 EEST 2019,AWT-EventQueue-0
+68,Create Client,Wed May 15 20:53:24 EEST 2019,AWT-EventQueue-0
+69,Add client for spectacle,Wed May 15 20:53:24 EEST 2019,AWT-EventQueue-0
+70,Select spectacle,Wed May 15 20:53:36 EEST 2019,AWT-EventQueue-0
+71,Get selected spectacle,Wed May 15 20:53:36 EEST 2019,AWT-EventQueue-0
+72,Get spectacle seats,Wed May 15 20:53:36 EEST 2019,AWT-EventQueue-0
+73,Select spectacle,Wed May 15 20:53:38 EEST 2019,AWT-EventQueue-0
+74,Get selected spectacle,Wed May 15 20:53:38 EEST 2019,AWT-EventQueue-0
+75,Get spectacle seats,Wed May 15 20:53:38 EEST 2019,AWT-EventQueue-0
+76,Add client for spectacle,Wed May 15 20:54:53 EEST 2019,main
+77,Add client for spectacle,Wed May 15 20:54:53 EEST 2019,main
+78,Add client for spectacle,Wed May 15 20:54:53 EEST 2019,main
+79,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+80,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+81,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+82,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+83,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+84,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+85,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+86,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+87,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+88,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+89,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+90,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+91,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+92,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+93,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+94,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+95,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+96,Add client for spectacle,Wed May 15 20:54:54 EEST 2019,main
+97,Get spectacles name,Wed May 15 20:54:54 EEST 2019,main
+98,Select spectacle,Wed May 15 20:55:00 EEST 2019,AWT-EventQueue-0
+99,Get selected spectacle,Wed May 15 20:55:00 EEST 2019,AWT-EventQueue-0
+100,Get spectacle seats,Wed May 15 20:55:00 EEST 2019,AWT-EventQueue-0
+101,Create Client,Wed May 15 20:55:20 EEST 2019,AWT-EventQueue-0
+102,Add client for spectacle,Wed May 15 20:55:20 EEST 2019,AWT-EventQueue-0
+103,Select spectacle,Wed May 15 20:55:31 EEST 2019,AWT-EventQueue-0
+104,Get selected spectacle,Wed May 15 20:55:31 EEST 2019,AWT-EventQueue-0
+105,Get spectacle seats,Wed May 15 20:55:31 EEST 2019,AWT-EventQueue-0
+106,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+107,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+108,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+109,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+110,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+111,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+112,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+113,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+114,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+115,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+116,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+117,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+118,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+119,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+120,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+121,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+122,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+123,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+124,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+125,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+126,Add client for spectacle,Wed May 15 20:58:14 EEST 2019,main
+127,Get spectacles name,Wed May 15 20:58:14 EEST 2019,main
+128,Select spectacle,Wed May 15 20:58:24 EEST 2019,AWT-EventQueue-0
+129,Get selected spectacle,Wed May 15 20:58:24 EEST 2019,AWT-EventQueue-0
+130,Get spectacle seats,Wed May 15 20:58:24 EEST 2019,AWT-EventQueue-0
+131,Add client for spectacle,Wed May 15 21:28:55 EEST 2019,main
+132,Add client for spectacle,Wed May 15 21:28:55 EEST 2019,main
+133,Add client for spectacle,Wed May 15 21:28:55 EEST 2019,main
+134,Add client for spectacle,Wed May 15 21:28:55 EEST 2019,main
+135,Add client for spectacle,Wed May 15 21:28:55 EEST 2019,main
+136,Add client for spectacle,Wed May 15 21:28:55 EEST 2019,main
+137,Add client for spectacle,Wed May 15 21:28:55 EEST 2019,main
+138,Add client for spectacle,Wed May 15 21:28:55 EEST 2019,main
+139,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+140,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+141,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+142,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+143,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+144,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+145,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+146,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+147,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+148,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+149,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+150,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+151,Add client for spectacle,Wed May 15 21:28:56 EEST 2019,main
+152,Get spectacles name,Wed May 15 21:28:57 EEST 2019,main
+153,Add client for spectacle,Wed May 15 21:44:09 EEST 2019,main
+154,Add client for spectacle,Wed May 15 21:44:09 EEST 2019,main
+155,Add client for spectacle,Wed May 15 21:44:09 EEST 2019,main
+156,Add client for spectacle,Wed May 15 21:44:09 EEST 2019,main
+157,Add client for spectacle,Wed May 15 21:44:09 EEST 2019,main
+158,Add client for spectacle,Wed May 15 21:44:09 EEST 2019,main
+159,Add client for spectacle,Wed May 15 21:44:09 EEST 2019,main
+160,Add client for spectacle,Wed May 15 21:44:09 EEST 2019,main
+161,Add client for spectacle,Wed May 15 21:44:09 EEST 2019,main
+162,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+163,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+164,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+165,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+166,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+167,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+168,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+169,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+170,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+171,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+172,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+173,Add client for spectacle,Wed May 15 21:44:10 EEST 2019,main
+174,Get spectacles name,Wed May 15 21:44:10 EEST 2019,main
+175,Add client for spectacle,Wed May 15 21:44:47 EEST 2019,main
+176,Add client for spectacle,Wed May 15 21:44:47 EEST 2019,main
+177,Add client for spectacle,Wed May 15 21:44:47 EEST 2019,main
+178,Add client for spectacle,Wed May 15 21:44:47 EEST 2019,main
+179,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+180,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+181,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+182,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+183,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+184,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+185,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+186,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+187,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+188,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+189,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+190,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+191,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+192,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+193,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+194,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+195,Add client for spectacle,Wed May 15 21:44:48 EEST 2019,main
+196,Get spectacles name,Wed May 15 21:44:48 EEST 2019,main
+197,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+198,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+199,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+200,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+201,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+202,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+203,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+204,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+205,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+206,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+207,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+208,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+209,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+210,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+211,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+212,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+213,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+214,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+215,Add client for spectacle,Wed May 15 21:47:09 EEST 2019,main
+216,Add client for spectacle,Wed May 15 21:47:10 EEST 2019,main
+217,Add client for spectacle,Wed May 15 21:47:10 EEST 2019,main
+218,Get spectacles name,Wed May 15 21:47:10 EEST 2019,main
+219,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+220,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+221,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+222,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+223,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+224,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+225,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+226,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+227,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+228,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+229,Add client for spectacle,Wed May 15 21:49:37 EEST 2019,main
+230,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+231,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+232,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+233,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+234,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+235,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+236,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+237,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+238,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+239,Add client for spectacle,Wed May 15 21:49:38 EEST 2019,main
+240,Get spectacles name,Wed May 15 21:49:38 EEST 2019,main
+241,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+242,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+243,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+244,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+245,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+246,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+247,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+248,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+249,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+250,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+251,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+252,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+253,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+254,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+255,Add client for spectacle,Wed May 15 21:51:25 EEST 2019,main
+256,Add client for spectacle,Wed May 15 21:51:26 EEST 2019,main
+257,Add client for spectacle,Wed May 15 21:51:26 EEST 2019,main
+258,Add client for spectacle,Wed May 15 21:51:26 EEST 2019,main
+259,Add client for spectacle,Wed May 15 21:51:26 EEST 2019,main
+260,Add client for spectacle,Wed May 15 21:51:26 EEST 2019,main
+261,Add client for spectacle,Wed May 15 21:51:26 EEST 2019,main
+262,Get spectacles name,Wed May 15 21:51:26 EEST 2019,main
+263,Add client for spectacle,Wed May 15 22:06:06 EEST 2019,main
+264,Add client for spectacle,Wed May 15 22:06:06 EEST 2019,main
+265,Add client for spectacle,Wed May 15 22:06:06 EEST 2019,main
+266,Add client for spectacle,Wed May 15 22:06:06 EEST 2019,main
+267,Add client for spectacle,Wed May 15 22:06:06 EEST 2019,main
+268,Add client for spectacle,Wed May 15 22:06:06 EEST 2019,main
+269,Add client for spectacle,Wed May 15 22:06:06 EEST 2019,main
+270,Add client for spectacle,Wed May 15 22:06:06 EEST 2019,main
+271,Add client for spectacle,Wed May 15 22:06:06 EEST 2019,main
+272,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+273,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+274,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+275,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+276,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+277,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+278,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+279,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+280,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+281,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+282,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+283,Add client for spectacle,Wed May 15 22:06:07 EEST 2019,main
+284,Get spectacles name,Wed May 15 22:06:07 EEST 2019,main
+285,Add client for spectacle,Thu May 16 00:31:37 EEST 2019,main
+286,Add client for spectacle,Thu May 16 00:31:39 EEST 2019,main
+287,Add client for spectacle,Thu May 16 00:31:40 EEST 2019,main
+288,Add client for spectacle,Thu May 16 00:31:41 EEST 2019,main
+289,Add client for spectacle,Thu May 16 00:33:11 EEST 2019,main
+290,Add client for spectacle,Thu May 16 00:34:57 EEST 2019,main
+291,Add client for spectacle,Thu May 16 00:34:57 EEST 2019,main
+292,Add client for spectacle,Thu May 16 00:34:57 EEST 2019,main
+293,Add client for spectacle,Thu May 16 00:34:57 EEST 2019,main
+294,Add client for spectacle,Thu May 16 00:34:57 EEST 2019,main
+295,Add client for spectacle,Thu May 16 00:34:57 EEST 2019,main
+296,Add client for spectacle,Thu May 16 00:34:58 EEST 2019,main
+297,Add client for spectacle,Thu May 16 00:34:58 EEST 2019,main
+298,Add client for spectacle,Thu May 16 00:35:00 EEST 2019,main
+299,Add client for spectacle,Thu May 16 00:35:00 EEST 2019,main
+300,Add client for spectacle,Thu May 16 00:35:01 EEST 2019,main
+301,Add client for spectacle,Thu May 16 00:35:01 EEST 2019,main
+302,Add client for spectacle,Thu May 16 00:35:01 EEST 2019,main
+303,Add client for spectacle,Thu May 16 00:35:02 EEST 2019,main
+304,Add client for spectacle,Thu May 16 00:35:02 EEST 2019,main
+305,Add client for spectacle,Thu May 16 00:35:02 EEST 2019,main
+306,Add client for spectacle,Thu May 16 00:35:03 EEST 2019,main
+307,Add client for spectacle,Thu May 16 00:35:03 EEST 2019,main
+308,Add client for spectacle,Thu May 16 00:35:03 EEST 2019,main
+309,Add client for spectacle,Thu May 16 00:35:03 EEST 2019,main
+310,Add client for spectacle,Thu May 16 00:35:03 EEST 2019,main
+311,Get spectacles name,Thu May 16 00:35:04 EEST 2019,main
+312,Select spectacle,Thu May 16 00:35:13 EEST 2019,AWT-EventQueue-0
+313,Get selected spectacle,Thu May 16 00:35:13 EEST 2019,AWT-EventQueue-0
+314,Get spectacle seats,Thu May 16 00:35:13 EEST 2019,AWT-EventQueue-0
+315,Select spectacle,Thu May 16 00:35:17 EEST 2019,AWT-EventQueue-0
+316,Get selected spectacle,Thu May 16 00:35:17 EEST 2019,AWT-EventQueue-0
+317,Get spectacle seats,Thu May 16 00:35:17 EEST 2019,AWT-EventQueue-0
+318,Select spectacle,Thu May 16 00:35:20 EEST 2019,AWT-EventQueue-0
+319,Get selected spectacle,Thu May 16 00:35:20 EEST 2019,AWT-EventQueue-0
+320,Get spectacle seats,Thu May 16 00:35:20 EEST 2019,AWT-EventQueue-0
+321,Add client for spectacle,Thu May 16 00:37:23 EEST 2019,main
+322,Add client for spectacle,Thu May 16 00:37:23 EEST 2019,main
+323,Add client for spectacle,Thu May 16 00:37:23 EEST 2019,main
+324,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+325,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+326,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+327,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+328,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+329,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+330,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+331,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+332,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+333,Add client for spectacle,Thu May 16 00:37:24 EEST 2019,main
+334,Add client for spectacle,Thu May 16 00:37:25 EEST 2019,main
+335,Add client for spectacle,Thu May 16 00:37:25 EEST 2019,main
+336,Add client for spectacle,Thu May 16 00:37:25 EEST 2019,main
+337,Add client for spectacle,Thu May 16 00:37:25 EEST 2019,main
+338,Add client for spectacle,Thu May 16 00:37:25 EEST 2019,main
+339,Add client for spectacle,Thu May 16 00:37:25 EEST 2019,main
+340,Add client for spectacle,Thu May 16 00:37:25 EEST 2019,main
+341,Add client for spectacle,Thu May 16 00:37:25 EEST 2019,main
+342,Get spectacles name,Thu May 16 00:37:25 EEST 2019,main
+343,Select spectacle,Thu May 16 00:37:30 EEST 2019,AWT-EventQueue-0
+344,Get selected spectacle,Thu May 16 00:37:30 EEST 2019,AWT-EventQueue-0
+345,Get spectacle seats,Thu May 16 00:37:30 EEST 2019,AWT-EventQueue-0
+346,Select spectacle,Thu May 16 00:37:36 EEST 2019,AWT-EventQueue-0
+347,Get selected spectacle,Thu May 16 00:37:36 EEST 2019,AWT-EventQueue-0
+348,Get spectacle seats,Thu May 16 00:37:36 EEST 2019,AWT-EventQueue-0
+349,Select spectacle,Thu May 16 00:37:40 EEST 2019,AWT-EventQueue-0
+350,Select spectacle,Thu May 16 00:38:07 EEST 2019,AWT-EventQueue-0
+351,Select spectacle,Thu May 16 00:38:08 EEST 2019,AWT-EventQueue-0
+352,Select spectacle,Thu May 16 00:38:10 EEST 2019,AWT-EventQueue-0
+353,Select spectacle,Thu May 16 00:38:11 EEST 2019,AWT-EventQueue-0
+354,Get selected spectacle,Thu May 16 00:38:11 EEST 2019,AWT-EventQueue-0
+355,Get spectacle seats,Thu May 16 00:38:11 EEST 2019,AWT-EventQueue-0
+356,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+357,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+358,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+359,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+360,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+361,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+362,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+363,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+364,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+365,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+366,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+367,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+368,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+369,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+370,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+371,Add client for spectacle,Thu May 16 00:40:24 EEST 2019,main
+372,Add client for spectacle,Thu May 16 00:40:25 EEST 2019,main
+373,Add client for spectacle,Thu May 16 00:40:25 EEST 2019,main
+374,Add client for spectacle,Thu May 16 00:40:25 EEST 2019,main
+375,Add client for spectacle,Thu May 16 00:40:25 EEST 2019,main
+376,Add client for spectacle,Thu May 16 00:40:25 EEST 2019,main
+377,Get spectacles name,Thu May 16 00:40:25 EEST 2019,main
+378,Select spectacle,Thu May 16 00:40:30 EEST 2019,AWT-EventQueue-0
+379,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+380,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+381,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+382,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+383,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+384,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+385,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+386,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+387,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+388,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+389,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+390,Add client for spectacle,Thu May 16 00:43:04 EEST 2019,main
+391,Add client for spectacle,Thu May 16 00:43:05 EEST 2019,main
+392,Add client for spectacle,Thu May 16 00:43:05 EEST 2019,main
+393,Add client for spectacle,Thu May 16 00:43:05 EEST 2019,main
+394,Add client for spectacle,Thu May 16 00:43:05 EEST 2019,main
+395,Add client for spectacle,Thu May 16 00:43:05 EEST 2019,main
+396,Add client for spectacle,Thu May 16 00:43:05 EEST 2019,main
+397,Add client for spectacle,Thu May 16 00:43:05 EEST 2019,main
+398,Add client for spectacle,Thu May 16 00:43:05 EEST 2019,main
+399,Add client for spectacle,Thu May 16 00:43:05 EEST 2019,main
+400,Get spectacles name,Thu May 16 00:43:05 EEST 2019,main
+401,Select spectacle,Thu May 16 00:43:11 EEST 2019,AWT-EventQueue-0
+402,Get selected spectacle,Thu May 16 00:43:11 EEST 2019,AWT-EventQueue-0
+403,Get spectacle seats,Thu May 16 00:43:11 EEST 2019,AWT-EventQueue-0
+404,Select spectacle,Thu May 16 00:43:17 EEST 2019,AWT-EventQueue-0
+405,Get selected spectacle,Thu May 16 00:43:17 EEST 2019,AWT-EventQueue-0
+406,Get spectacle seats,Thu May 16 00:43:17 EEST 2019,AWT-EventQueue-0
+407,Select spectacle,Thu May 16 00:43:21 EEST 2019,AWT-EventQueue-0
+408,Select spectacle,Thu May 16 00:43:23 EEST 2019,AWT-EventQueue-0
+409,Get selected spectacle,Thu May 16 00:43:23 EEST 2019,AWT-EventQueue-0
+410,Get spectacle seats,Thu May 16 00:43:23 EEST 2019,AWT-EventQueue-0
+411,Select spectacle,Thu May 16 00:43:25 EEST 2019,AWT-EventQueue-0
+412,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+413,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+414,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+415,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+416,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+417,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+418,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+419,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+420,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+421,Add client for spectacle,Thu May 16 00:45:42 EEST 2019,main
+422,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+423,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+424,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+425,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+426,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+427,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+428,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+429,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+430,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+431,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+432,Add client for spectacle,Thu May 16 00:45:43 EEST 2019,main
+433,Get spectacles name,Thu May 16 00:45:44 EEST 2019,main
+434,Select spectacle,Thu May 16 00:45:48 EEST 2019,AWT-EventQueue-0
+435,Select spectacle,Thu May 16 00:45:49 EEST 2019,AWT-EventQueue-0
+436,Get selected spectacle,Thu May 16 00:45:49 EEST 2019,AWT-EventQueue-0
+437,Get spectacle seats,Thu May 16 00:45:49 EEST 2019,AWT-EventQueue-0
+438,Select spectacle,Thu May 16 00:46:01 EEST 2019,AWT-EventQueue-0
+439,Get selected spectacle,Thu May 16 00:46:01 EEST 2019,AWT-EventQueue-0
+440,Get spectacle seats,Thu May 16 00:46:01 EEST 2019,AWT-EventQueue-0
+441,Add client for spectacle,Thu May 16 00:48:39 EEST 2019,main
+442,Add client for spectacle,Thu May 16 00:48:39 EEST 2019,main
+443,Add client for spectacle,Thu May 16 00:48:39 EEST 2019,main
+444,Add client for spectacle,Thu May 16 00:48:39 EEST 2019,main
+445,Add client for spectacle,Thu May 16 00:48:39 EEST 2019,main
+446,Add client for spectacle,Thu May 16 00:48:39 EEST 2019,main
+447,Add client for spectacle,Thu May 16 00:48:39 EEST 2019,main
+448,Add client for spectacle,Thu May 16 00:48:39 EEST 2019,main
+449,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+450,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+451,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+452,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+453,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+454,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+455,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+456,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+457,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+458,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+459,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+460,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+461,Add client for spectacle,Thu May 16 00:48:40 EEST 2019,main
+462,Get spectacles name,Thu May 16 00:48:41 EEST 2019,main
+463,Select spectacle,Thu May 16 00:48:50 EEST 2019,AWT-EventQueue-0
+464,Get selected spectacle,Thu May 16 00:48:50 EEST 2019,AWT-EventQueue-0
+465,Get spectacle seats,Thu May 16 00:48:50 EEST 2019,AWT-EventQueue-0
+466,Select spectacle,Thu May 16 00:48:54 EEST 2019,AWT-EventQueue-0
+467,Get selected spectacle,Thu May 16 00:48:54 EEST 2019,AWT-EventQueue-0
+468,Get spectacle seats,Thu May 16 00:48:54 EEST 2019,AWT-EventQueue-0
+469,Select spectacle,Thu May 16 00:48:56 EEST 2019,AWT-EventQueue-0
+470,Get selected spectacle,Thu May 16 00:48:56 EEST 2019,AWT-EventQueue-0
+471,Get spectacle seats,Thu May 16 00:48:56 EEST 2019,AWT-EventQueue-0
+472,Select spectacle,Thu May 16 00:48:59 EEST 2019,AWT-EventQueue-0
+473,Get selected spectacle,Thu May 16 00:48:59 EEST 2019,AWT-EventQueue-0
+474,Get spectacle seats,Thu May 16 00:48:59 EEST 2019,AWT-EventQueue-0
+475,Select spectacle,Thu May 16 00:49:03 EEST 2019,AWT-EventQueue-0
+476,Get selected spectacle,Thu May 16 00:49:03 EEST 2019,AWT-EventQueue-0
+477,Get spectacle seats,Thu May 16 00:49:03 EEST 2019,AWT-EventQueue-0
+478,Select spectacle,Thu May 16 00:49:05 EEST 2019,AWT-EventQueue-0
+479,Get selected spectacle,Thu May 16 00:49:05 EEST 2019,AWT-EventQueue-0
+480,Get spectacle seats,Thu May 16 00:49:05 EEST 2019,AWT-EventQueue-0
+481,Select spectacle,Thu May 16 00:49:07 EEST 2019,AWT-EventQueue-0
+482,Get selected spectacle,Thu May 16 00:49:07 EEST 2019,AWT-EventQueue-0
+483,Get spectacle seats,Thu May 16 00:49:07 EEST 2019,AWT-EventQueue-0
+484,Select spectacle,Thu May 16 00:49:25 EEST 2019,AWT-EventQueue-0
+485,Get selected spectacle,Thu May 16 00:49:25 EEST 2019,AWT-EventQueue-0
+486,Get spectacle seats,Thu May 16 00:49:25 EEST 2019,AWT-EventQueue-0
+487,Add client for spectacle,Thu May 16 06:57:28 EEST 2019,main
+488,Add client for spectacle,Thu May 16 06:57:30 EEST 2019,main
+489,Add client for spectacle,Thu May 16 06:57:34 EEST 2019,main
+490,Add client for spectacle,Thu May 16 06:57:35 EEST 2019,main
+491,Add client for spectacle,Thu May 16 06:57:36 EEST 2019,main
+492,Add client for spectacle,Thu May 16 06:57:40 EEST 2019,main
+493,Add client for spectacle,Thu May 16 06:57:48 EEST 2019,main
+494,Add client for spectacle,Thu May 16 06:57:51 EEST 2019,main
+495,Add client for spectacle,Thu May 16 06:57:55 EEST 2019,main
+496,Add client for spectacle,Thu May 16 06:57:57 EEST 2019,main
+497,Add client for spectacle,Thu May 16 06:57:59 EEST 2019,main
+498,Add client for spectacle,Thu May 16 06:58:03 EEST 2019,main
+499,Add client for spectacle,Thu May 16 06:58:07 EEST 2019,main
+500,Add client for spectacle,Thu May 16 06:58:09 EEST 2019,main
+501,Add client for spectacle,Thu May 16 06:58:13 EEST 2019,main
+502,Add client for spectacle,Thu May 16 06:58:15 EEST 2019,main
+503,Add client for spectacle,Thu May 16 06:58:16 EEST 2019,main
+504,Add client for spectacle,Thu May 16 06:58:17 EEST 2019,main
+505,Add client for spectacle,Thu May 16 06:58:18 EEST 2019,main
+506,Add client for spectacle,Thu May 16 06:58:19 EEST 2019,main
+507,Add client for spectacle,Thu May 16 06:58:22 EEST 2019,main
+508,Get spectacles name,Thu May 16 06:58:25 EEST 2019,main
+509,Add client for spectacle,Thu May 16 07:05:14 EEST 2019,main
+510,Add client for spectacle,Thu May 16 07:05:16 EEST 2019,main
+511,Add client for spectacle,Thu May 16 07:05:17 EEST 2019,main
+512,Add client for spectacle,Thu May 16 07:05:18 EEST 2019,main
+513,Add client for spectacle,Thu May 16 07:05:18 EEST 2019,main
+514,Add client for spectacle,Thu May 16 07:05:18 EEST 2019,main
+515,Add client for spectacle,Thu May 16 07:05:20 EEST 2019,main
+516,Add client for spectacle,Thu May 16 07:05:21 EEST 2019,main
+517,Add client for spectacle,Thu May 16 07:05:22 EEST 2019,main
+518,Add client for spectacle,Thu May 16 07:05:23 EEST 2019,main
+519,Add client for spectacle,Thu May 16 07:05:23 EEST 2019,main
+520,Add client for spectacle,Thu May 16 07:05:24 EEST 2019,main
+521,Add client for spectacle,Thu May 16 07:05:25 EEST 2019,main
+522,Add client for spectacle,Thu May 16 07:05:25 EEST 2019,main
+523,Add client for spectacle,Thu May 16 07:05:26 EEST 2019,main
+524,Add client for spectacle,Thu May 16 07:05:27 EEST 2019,main
+525,Add client for spectacle,Thu May 16 07:05:27 EEST 2019,main
+526,Add client for spectacle,Thu May 16 07:05:28 EEST 2019,main
+527,Add client for spectacle,Thu May 16 07:05:28 EEST 2019,main
+528,Add client for spectacle,Thu May 16 07:05:28 EEST 2019,main
+529,Add client for spectacle,Thu May 16 07:05:28 EEST 2019,main
+530,Get spectacles name,Thu May 16 07:05:29 EEST 2019,main
+531,Add client for spectacle,Thu May 16 07:11:18 EEST 2019,main
+532,Add client for spectacle,Thu May 16 07:11:19 EEST 2019,main
+533,Add client for spectacle,Thu May 16 07:11:20 EEST 2019,main
+534,Add client for spectacle,Thu May 16 07:11:21 EEST 2019,main
+535,Add client for spectacle,Thu May 16 07:11:21 EEST 2019,main
+536,Add client for spectacle,Thu May 16 07:11:22 EEST 2019,main
+537,Add client for spectacle,Thu May 16 07:11:22 EEST 2019,main
+538,Add client for spectacle,Thu May 16 07:11:23 EEST 2019,main
+539,Add client for spectacle,Thu May 16 07:11:24 EEST 2019,main
+540,Add client for spectacle,Thu May 16 07:11:24 EEST 2019,main
+541,Add client for spectacle,Thu May 16 07:11:24 EEST 2019,main
+542,Add client for spectacle,Thu May 16 07:11:25 EEST 2019,main
+543,Add client for spectacle,Thu May 16 07:11:26 EEST 2019,main
+544,Add client for spectacle,Thu May 16 07:11:26 EEST 2019,main
+545,Add client for spectacle,Thu May 16 07:11:27 EEST 2019,main
+546,Add client for spectacle,Thu May 16 07:11:28 EEST 2019,main
+547,Add client for spectacle,Thu May 16 07:11:28 EEST 2019,main
+548,Add client for spectacle,Thu May 16 07:11:29 EEST 2019,main
+549,Add client for spectacle,Thu May 16 07:11:29 EEST 2019,main
+550,Add client for spectacle,Thu May 16 07:11:29 EEST 2019,main
+551,Add client for spectacle,Thu May 16 07:11:30 EEST 2019,main
+552,Get spectacles name,Thu May 16 07:11:30 EEST 2019,main
+553,Select spectacle,Thu May 16 07:12:04 EEST 2019,AWT-EventQueue-0
+554,Get selected spectacle,Thu May 16 07:12:04 EEST 2019,AWT-EventQueue-0
+555,Get spectacle seats,Thu May 16 07:12:04 EEST 2019,AWT-EventQueue-0
+556,Select spectacle,Thu May 16 07:12:09 EEST 2019,AWT-EventQueue-0
+557,Get selected spectacle,Thu May 16 07:12:09 EEST 2019,AWT-EventQueue-0
+558,Get spectacle seats,Thu May 16 07:12:09 EEST 2019,AWT-EventQueue-0
+559,Select spectacle,Thu May 16 07:12:11 EEST 2019,AWT-EventQueue-0
+560,Get selected spectacle,Thu May 16 07:12:11 EEST 2019,AWT-EventQueue-0
+561,Get spectacle seats,Thu May 16 07:12:11 EEST 2019,AWT-EventQueue-0
+562,Select spectacle,Thu May 16 07:12:14 EEST 2019,AWT-EventQueue-0
+563,Get selected spectacle,Thu May 16 07:12:14 EEST 2019,AWT-EventQueue-0
+564,Get spectacle seats,Thu May 16 07:12:14 EEST 2019,AWT-EventQueue-0
+565,Select spectacle,Thu May 16 07:12:17 EEST 2019,AWT-EventQueue-0
+566,Get selected spectacle,Thu May 16 07:12:17 EEST 2019,AWT-EventQueue-0
+567,Get spectacle seats,Thu May 16 07:12:17 EEST 2019,AWT-EventQueue-0
+568,Select spectacle,Thu May 16 07:12:19 EEST 2019,AWT-EventQueue-0
+569,Get selected spectacle,Thu May 16 07:12:19 EEST 2019,AWT-EventQueue-0
+570,Get spectacle seats,Thu May 16 07:12:19 EEST 2019,AWT-EventQueue-0
+571,Select spectacle,Thu May 16 07:12:20 EEST 2019,AWT-EventQueue-0
+572,Get selected spectacle,Thu May 16 07:12:20 EEST 2019,AWT-EventQueue-0
+573,Get spectacle seats,Thu May 16 07:12:20 EEST 2019,AWT-EventQueue-0
+574,Select spectacle,Thu May 16 07:12:24 EEST 2019,AWT-EventQueue-0
+575,Get selected spectacle,Thu May 16 07:12:24 EEST 2019,AWT-EventQueue-0
+576,Get spectacle seats,Thu May 16 07:12:24 EEST 2019,AWT-EventQueue-0
+577,Select spectacle,Thu May 16 07:12:28 EEST 2019,AWT-EventQueue-0
+578,Get selected spectacle,Thu May 16 07:12:28 EEST 2019,AWT-EventQueue-0
+579,Get spectacle seats,Thu May 16 07:12:28 EEST 2019,AWT-EventQueue-0
+580,Add client for spectacle,Thu May 16 07:24:38 EEST 2019,main
+581,Add client for spectacle,Thu May 16 07:24:39 EEST 2019,main
+582,Add client for spectacle,Thu May 16 07:24:40 EEST 2019,main
+583,Add client for spectacle,Thu May 16 07:24:41 EEST 2019,main
+584,Add client for spectacle,Thu May 16 07:24:41 EEST 2019,main
+585,Add client for spectacle,Thu May 16 07:24:42 EEST 2019,main
+586,Add client for spectacle,Thu May 16 07:24:42 EEST 2019,main
+587,Add client for spectacle,Thu May 16 07:24:43 EEST 2019,main
+588,Add client for spectacle,Thu May 16 07:24:44 EEST 2019,main
+589,Add client for spectacle,Thu May 16 07:24:44 EEST 2019,main
+590,Add client for spectacle,Thu May 16 07:24:45 EEST 2019,main
+591,Add client for spectacle,Thu May 16 07:24:46 EEST 2019,main
+592,Add client for spectacle,Thu May 16 07:24:49 EEST 2019,main
+593,Add client for spectacle,Thu May 16 07:24:50 EEST 2019,main
+594,Add client for spectacle,Thu May 16 07:24:51 EEST 2019,main
+595,Add client for spectacle,Thu May 16 07:24:53 EEST 2019,main
+596,Add client for spectacle,Thu May 16 07:24:55 EEST 2019,main
+597,Add client for spectacle,Thu May 16 07:24:55 EEST 2019,main
+598,Add client for spectacle,Thu May 16 07:24:56 EEST 2019,main
+599,Add client for spectacle,Thu May 16 07:24:56 EEST 2019,main
+600,Add client for spectacle,Thu May 16 07:24:56 EEST 2019,main
+601,Get spectacles name,Thu May 16 07:24:57 EEST 2019,main
+602,Select spectacle,Thu May 16 07:25:07 EEST 2019,AWT-EventQueue-0
+603,Get selected spectacle,Thu May 16 07:25:07 EEST 2019,AWT-EventQueue-0
+604,Get spectacle seats,Thu May 16 07:25:07 EEST 2019,AWT-EventQueue-0
+605,Get total to pay for spectacle,Thu May 16 07:25:39 EEST 2019,AWT-EventQueue-0
+606,Get total to pay for spectacle,Thu May 16 07:25:51 EEST 2019,AWT-EventQueue-0
+607,Add client for spectacle,Thu May 16 07:34:50 EEST 2019,main
+608,Add client for spectacle,Thu May 16 07:34:51 EEST 2019,main
+609,Add client for spectacle,Thu May 16 07:34:52 EEST 2019,main
+610,Add client for spectacle,Thu May 16 07:34:53 EEST 2019,main
+611,Add client for spectacle,Thu May 16 07:34:53 EEST 2019,main
+612,Add client for spectacle,Thu May 16 07:34:54 EEST 2019,main
+613,Add client for spectacle,Thu May 16 07:34:54 EEST 2019,main
+614,Add client for spectacle,Thu May 16 07:34:55 EEST 2019,main
+615,Add client for spectacle,Thu May 16 07:34:56 EEST 2019,main
+616,Add client for spectacle,Thu May 16 07:34:57 EEST 2019,main
+617,Add client for spectacle,Thu May 16 07:34:57 EEST 2019,main
+618,Add client for spectacle,Thu May 16 07:34:58 EEST 2019,main
+619,Add client for spectacle,Thu May 16 07:34:59 EEST 2019,main
+620,Add client for spectacle,Thu May 16 07:35:00 EEST 2019,main
+621,Add client for spectacle,Thu May 16 07:35:00 EEST 2019,main
+622,Add client for spectacle,Thu May 16 07:35:01 EEST 2019,main
+623,Add client for spectacle,Thu May 16 07:35:01 EEST 2019,main
+624,Add client for spectacle,Thu May 16 07:35:02 EEST 2019,main
+625,Add client for spectacle,Thu May 16 07:35:02 EEST 2019,main
+626,Add client for spectacle,Thu May 16 07:35:02 EEST 2019,main
+627,Add client for spectacle,Thu May 16 07:35:03 EEST 2019,main
+628,Get spectacles name,Thu May 16 07:35:03 EEST 2019,main
+629,Select spectacle,Thu May 16 07:35:10 EEST 2019,AWT-EventQueue-0
+630,Get selected spectacle,Thu May 16 07:35:10 EEST 2019,AWT-EventQueue-0
+631,Get spectacle seats,Thu May 16 07:35:10 EEST 2019,AWT-EventQueue-0
+632,Get total to pay for spectacle,Thu May 16 07:35:19 EEST 2019,AWT-EventQueue-0
+633,Add client for spectacle,Thu May 16 07:37:16 EEST 2019,main
+634,Add client for spectacle,Thu May 16 07:37:17 EEST 2019,main
+635,Add client for spectacle,Thu May 16 07:37:18 EEST 2019,main
+636,Add client for spectacle,Thu May 16 07:37:18 EEST 2019,main
+637,Add client for spectacle,Thu May 16 07:37:19 EEST 2019,main
+638,Add client for spectacle,Thu May 16 07:37:19 EEST 2019,main
+639,Add client for spectacle,Thu May 16 07:37:20 EEST 2019,main
+640,Add client for spectacle,Thu May 16 07:37:20 EEST 2019,main
+641,Add client for spectacle,Thu May 16 07:37:21 EEST 2019,main
+642,Add client for spectacle,Thu May 16 07:37:22 EEST 2019,main
+643,Add client for spectacle,Thu May 16 07:37:22 EEST 2019,main
+644,Add client for spectacle,Thu May 16 07:37:23 EEST 2019,main
+645,Add client for spectacle,Thu May 16 07:37:23 EEST 2019,main
+646,Add client for spectacle,Thu May 16 07:37:24 EEST 2019,main
+647,Add client for spectacle,Thu May 16 07:37:24 EEST 2019,main
+648,Add client for spectacle,Thu May 16 07:37:24 EEST 2019,main
+649,Add client for spectacle,Thu May 16 07:37:25 EEST 2019,main
+650,Add client for spectacle,Thu May 16 07:37:25 EEST 2019,main
+651,Add client for spectacle,Thu May 16 07:37:25 EEST 2019,main
+652,Add client for spectacle,Thu May 16 07:37:26 EEST 2019,main
+653,Add client for spectacle,Thu May 16 07:37:26 EEST 2019,main
+654,Get spectacles name,Thu May 16 07:37:26 EEST 2019,main
+655,Select spectacle,Thu May 16 07:37:30 EEST 2019,AWT-EventQueue-0
+656,Get selected spectacle,Thu May 16 07:37:30 EEST 2019,AWT-EventQueue-0
+657,Get spectacle seats,Thu May 16 07:37:30 EEST 2019,AWT-EventQueue-0
+658,Get total to pay for spectacle,Thu May 16 07:37:33 EEST 2019,AWT-EventQueue-0
+659,Add client for spectacle,Thu May 16 07:37:59 EEST 2019,main
+660,Add client for spectacle,Thu May 16 07:38:00 EEST 2019,main
+661,Add client for spectacle,Thu May 16 07:38:01 EEST 2019,main
+662,Add client for spectacle,Thu May 16 07:38:02 EEST 2019,main
+663,Add client for spectacle,Thu May 16 07:38:03 EEST 2019,main
+664,Add client for spectacle,Thu May 16 07:38:03 EEST 2019,main
+665,Add client for spectacle,Thu May 16 07:38:04 EEST 2019,main
+666,Add client for spectacle,Thu May 16 07:38:04 EEST 2019,main
+667,Add client for spectacle,Thu May 16 07:38:05 EEST 2019,main
+668,Add client for spectacle,Thu May 16 07:38:06 EEST 2019,main
+669,Add client for spectacle,Thu May 16 07:38:06 EEST 2019,main
+670,Add client for spectacle,Thu May 16 07:38:07 EEST 2019,main
+671,Add client for spectacle,Thu May 16 07:38:08 EEST 2019,main
+672,Add client for spectacle,Thu May 16 07:38:08 EEST 2019,main
+673,Add client for spectacle,Thu May 16 07:38:09 EEST 2019,main
+674,Add client for spectacle,Thu May 16 07:38:09 EEST 2019,main
+675,Add client for spectacle,Thu May 16 07:38:10 EEST 2019,main
+676,Add client for spectacle,Thu May 16 07:38:10 EEST 2019,main
+677,Add client for spectacle,Thu May 16 07:38:10 EEST 2019,main
+678,Add client for spectacle,Thu May 16 07:38:10 EEST 2019,main
+679,Add client for spectacle,Thu May 16 07:38:11 EEST 2019,main
+680,Get spectacles name,Thu May 16 07:38:11 EEST 2019,main
+681,Select spectacle,Thu May 16 07:38:15 EEST 2019,AWT-EventQueue-0
+682,Get selected spectacle,Thu May 16 07:38:15 EEST 2019,AWT-EventQueue-0
+683,Get spectacle seats,Thu May 16 07:38:15 EEST 2019,AWT-EventQueue-0
+684,Get total to pay for spectacle,Thu May 16 07:38:19 EEST 2019,AWT-EventQueue-0
+685,Add client for spectacle,Thu May 16 07:39:52 EEST 2019,main
+686,Add client for spectacle,Thu May 16 07:39:53 EEST 2019,main
+687,Add client for spectacle,Thu May 16 07:39:55 EEST 2019,main
+688,Add client for spectacle,Thu May 16 07:39:55 EEST 2019,main
+689,Add client for spectacle,Thu May 16 07:39:56 EEST 2019,main
+690,Add client for spectacle,Thu May 16 07:39:56 EEST 2019,main
+691,Add client for spectacle,Thu May 16 07:39:57 EEST 2019,main
+692,Add client for spectacle,Thu May 16 07:39:58 EEST 2019,main
+693,Add client for spectacle,Thu May 16 07:39:59 EEST 2019,main
+694,Add client for spectacle,Thu May 16 07:39:59 EEST 2019,main
+695,Add client for spectacle,Thu May 16 07:40:00 EEST 2019,main
+696,Add client for spectacle,Thu May 16 07:40:00 EEST 2019,main
+697,Add client for spectacle,Thu May 16 07:40:01 EEST 2019,main
+698,Add client for spectacle,Thu May 16 07:40:01 EEST 2019,main
+699,Add client for spectacle,Thu May 16 07:40:02 EEST 2019,main
+700,Add client for spectacle,Thu May 16 07:40:02 EEST 2019,main
+701,Add client for spectacle,Thu May 16 07:40:03 EEST 2019,main
+702,Add client for spectacle,Thu May 16 07:40:03 EEST 2019,main
+703,Add client for spectacle,Thu May 16 07:40:03 EEST 2019,main
+704,Add client for spectacle,Thu May 16 07:40:04 EEST 2019,main
+705,Add client for spectacle,Thu May 16 07:40:04 EEST 2019,main
+706,Get spectacles name,Thu May 16 07:40:05 EEST 2019,main
+707,Select spectacle,Thu May 16 07:40:08 EEST 2019,AWT-EventQueue-0
+708,Get selected spectacle,Thu May 16 07:40:08 EEST 2019,AWT-EventQueue-0
+709,Get spectacle seats,Thu May 16 07:40:08 EEST 2019,AWT-EventQueue-0
+710,Get total to pay for spectacle,Thu May 16 07:40:15 EEST 2019,AWT-EventQueue-0
+711,Add client for spectacle,Thu May 16 07:41:47 EEST 2019,main
+712,Add client for spectacle,Thu May 16 07:41:48 EEST 2019,main
+713,Add client for spectacle,Thu May 16 07:41:48 EEST 2019,main
+714,Add client for spectacle,Thu May 16 07:41:49 EEST 2019,main
+715,Add client for spectacle,Thu May 16 07:41:49 EEST 2019,main
+716,Add client for spectacle,Thu May 16 07:41:49 EEST 2019,main
+717,Add client for spectacle,Thu May 16 07:41:50 EEST 2019,main
+718,Add client for spectacle,Thu May 16 07:41:51 EEST 2019,main
+719,Add client for spectacle,Thu May 16 07:41:52 EEST 2019,main
+720,Add client for spectacle,Thu May 16 07:41:52 EEST 2019,main
+721,Add client for spectacle,Thu May 16 07:41:53 EEST 2019,main
+722,Add client for spectacle,Thu May 16 07:41:54 EEST 2019,main
+723,Add client for spectacle,Thu May 16 07:41:54 EEST 2019,main
+724,Add client for spectacle,Thu May 16 07:41:55 EEST 2019,main
+725,Add client for spectacle,Thu May 16 07:41:55 EEST 2019,main
+726,Add client for spectacle,Thu May 16 07:41:56 EEST 2019,main
+727,Add client for spectacle,Thu May 16 07:41:56 EEST 2019,main
+728,Add client for spectacle,Thu May 16 07:41:57 EEST 2019,main
+729,Add client for spectacle,Thu May 16 07:41:58 EEST 2019,main
+730,Add client for spectacle,Thu May 16 07:41:58 EEST 2019,main
+731,Add client for spectacle,Thu May 16 07:41:58 EEST 2019,main
+732,Get spectacles name,Thu May 16 07:41:58 EEST 2019,main
+733,Select spectacle,Thu May 16 07:42:01 EEST 2019,AWT-EventQueue-0
+734,Get selected spectacle,Thu May 16 07:42:01 EEST 2019,AWT-EventQueue-0
+735,Get spectacle seats,Thu May 16 07:42:01 EEST 2019,AWT-EventQueue-0
+736,Get total to pay for spectacle,Thu May 16 07:42:06 EEST 2019,AWT-EventQueue-0
+737,Select spectacle,Thu May 16 07:42:11 EEST 2019,AWT-EventQueue-0
+738,Get selected spectacle,Thu May 16 07:42:11 EEST 2019,AWT-EventQueue-0
+739,Get spectacle seats,Thu May 16 07:42:11 EEST 2019,AWT-EventQueue-0
+740,Get total to pay for spectacle,Thu May 16 07:42:14 EEST 2019,AWT-EventQueue-0
+741,Select spectacle,Thu May 16 07:42:20 EEST 2019,AWT-EventQueue-0
+742,Get selected spectacle,Thu May 16 07:42:20 EEST 2019,AWT-EventQueue-0
+743,Get spectacle seats,Thu May 16 07:42:20 EEST 2019,AWT-EventQueue-0
+744,Get total to pay for spectacle,Thu May 16 07:42:26 EEST 2019,AWT-EventQueue-0
+745,Add client for spectacle,Thu May 16 07:42:52 EEST 2019,main
+746,Add client for spectacle,Thu May 16 07:42:53 EEST 2019,main
+747,Add client for spectacle,Thu May 16 07:42:54 EEST 2019,main
+748,Add client for spectacle,Thu May 16 07:42:55 EEST 2019,main
+749,Add client for spectacle,Thu May 16 07:42:56 EEST 2019,main
+750,Add client for spectacle,Thu May 16 07:42:56 EEST 2019,main
+751,Add client for spectacle,Thu May 16 07:42:58 EEST 2019,main
+752,Add client for spectacle,Thu May 16 07:42:59 EEST 2019,main
+753,Add client for spectacle,Thu May 16 07:43:00 EEST 2019,main
+754,Add client for spectacle,Thu May 16 07:43:01 EEST 2019,main
+755,Add client for spectacle,Thu May 16 07:43:01 EEST 2019,main
+756,Add client for spectacle,Thu May 16 07:43:02 EEST 2019,main
+757,Add client for spectacle,Thu May 16 07:43:03 EEST 2019,main
+758,Add client for spectacle,Thu May 16 07:43:04 EEST 2019,main
+759,Add client for spectacle,Thu May 16 07:43:04 EEST 2019,main
+760,Add client for spectacle,Thu May 16 07:43:05 EEST 2019,main
+761,Add client for spectacle,Thu May 16 07:43:05 EEST 2019,main
+762,Add client for spectacle,Thu May 16 07:43:05 EEST 2019,main
+763,Add client for spectacle,Thu May 16 07:43:06 EEST 2019,main
+764,Add client for spectacle,Thu May 16 07:43:06 EEST 2019,main
+765,Add client for spectacle,Thu May 16 07:43:06 EEST 2019,main
+766,Get spectacles name,Thu May 16 07:43:07 EEST 2019,main
+767,Select spectacle,Thu May 16 07:43:13 EEST 2019,AWT-EventQueue-0
+768,Get selected spectacle,Thu May 16 07:43:13 EEST 2019,AWT-EventQueue-0
+769,Get spectacle seats,Thu May 16 07:43:13 EEST 2019,AWT-EventQueue-0
+770,Get total to pay for spectacle,Thu May 16 07:43:16 EEST 2019,AWT-EventQueue-0
+771,Add client for spectacle,Thu May 16 07:44:49 EEST 2019,main
+772,Add client for spectacle,Thu May 16 07:44:50 EEST 2019,main
+773,Add client for spectacle,Thu May 16 07:44:51 EEST 2019,main
+774,Add client for spectacle,Thu May 16 07:44:52 EEST 2019,main
+775,Add client for spectacle,Thu May 16 07:44:52 EEST 2019,main
+776,Add client for spectacle,Thu May 16 07:44:53 EEST 2019,main
+777,Add client for spectacle,Thu May 16 07:44:53 EEST 2019,main
+778,Add client for spectacle,Thu May 16 07:44:54 EEST 2019,main
+779,Add client for spectacle,Thu May 16 07:44:55 EEST 2019,main
+780,Add client for spectacle,Thu May 16 07:44:55 EEST 2019,main
+781,Add client for spectacle,Thu May 16 07:44:56 EEST 2019,main
+782,Add client for spectacle,Thu May 16 07:44:56 EEST 2019,main
+783,Add client for spectacle,Thu May 16 07:44:58 EEST 2019,main
+784,Add client for spectacle,Thu May 16 07:44:58 EEST 2019,main
+785,Add client for spectacle,Thu May 16 07:44:59 EEST 2019,main
+786,Add client for spectacle,Thu May 16 07:44:59 EEST 2019,main
+787,Add client for spectacle,Thu May 16 07:45:00 EEST 2019,main
+788,Add client for spectacle,Thu May 16 07:45:00 EEST 2019,main
+789,Add client for spectacle,Thu May 16 07:45:00 EEST 2019,main
+790,Add client for spectacle,Thu May 16 07:45:01 EEST 2019,main
+791,Add client for spectacle,Thu May 16 07:45:01 EEST 2019,main
+792,Get spectacles name,Thu May 16 07:45:01 EEST 2019,main
+793,Select spectacle,Thu May 16 07:45:05 EEST 2019,AWT-EventQueue-0
+794,Get selected spectacle,Thu May 16 07:45:05 EEST 2019,AWT-EventQueue-0
+795,Get spectacle seats,Thu May 16 07:45:05 EEST 2019,AWT-EventQueue-0
+796,Get total to pay for spectacle,Thu May 16 07:45:08 EEST 2019,AWT-EventQueue-0
+797,Add client for spectacle,Thu May 16 07:54:14 EEST 2019,main
+798,Add client for spectacle,Thu May 16 07:54:14 EEST 2019,main
+799,Add client for spectacle,Thu May 16 07:54:15 EEST 2019,main
+800,Add client for spectacle,Thu May 16 07:54:15 EEST 2019,main
+801,Add client for spectacle,Thu May 16 07:54:16 EEST 2019,main
+802,Add client for spectacle,Thu May 16 07:54:16 EEST 2019,main
+803,Add client for spectacle,Thu May 16 07:54:16 EEST 2019,main
+804,Add client for spectacle,Thu May 16 07:54:18 EEST 2019,main
+805,Add client for spectacle,Thu May 16 07:54:18 EEST 2019,main
+806,Add client for spectacle,Thu May 16 07:54:19 EEST 2019,main
+807,Add client for spectacle,Thu May 16 07:54:19 EEST 2019,main
+808,Add client for spectacle,Thu May 16 07:54:20 EEST 2019,main
+809,Add client for spectacle,Thu May 16 07:54:21 EEST 2019,main
+810,Add client for spectacle,Thu May 16 07:54:21 EEST 2019,main
+811,Add client for spectacle,Thu May 16 07:54:21 EEST 2019,main
+812,Add client for spectacle,Thu May 16 07:54:22 EEST 2019,main
+813,Add client for spectacle,Thu May 16 07:54:22 EEST 2019,main
+814,Add client for spectacle,Thu May 16 07:54:22 EEST 2019,main
+815,Add client for spectacle,Thu May 16 07:54:23 EEST 2019,main
+816,Add client for spectacle,Thu May 16 07:54:23 EEST 2019,main
+817,Add client for spectacle,Thu May 16 07:54:23 EEST 2019,main
+818,Add client for spectacle,Thu May 16 07:55:16 EEST 2019,main
+819,Add client for spectacle,Thu May 16 07:55:17 EEST 2019,main
+820,Add client for spectacle,Thu May 16 07:55:18 EEST 2019,main
+821,Add client for spectacle,Thu May 16 07:55:18 EEST 2019,main
+822,Add client for spectacle,Thu May 16 07:55:19 EEST 2019,main
+823,Add client for spectacle,Thu May 16 07:55:19 EEST 2019,main
+824,Add client for spectacle,Thu May 16 07:55:19 EEST 2019,main
+825,Add client for spectacle,Thu May 16 07:55:20 EEST 2019,main
+826,Add client for spectacle,Thu May 16 07:55:21 EEST 2019,main
+827,Add client for spectacle,Thu May 16 07:55:21 EEST 2019,main
+828,Add client for spectacle,Thu May 16 07:55:22 EEST 2019,main
+829,Add client for spectacle,Thu May 16 07:55:22 EEST 2019,main
+830,Add client for spectacle,Thu May 16 07:55:23 EEST 2019,main
+831,Add client for spectacle,Thu May 16 07:55:24 EEST 2019,main
+832,Add client for spectacle,Thu May 16 07:55:24 EEST 2019,main
+833,Add client for spectacle,Thu May 16 07:55:25 EEST 2019,main
+834,Add client for spectacle,Thu May 16 07:55:25 EEST 2019,main
+835,Add client for spectacle,Thu May 16 07:55:25 EEST 2019,main
+836,Add client for spectacle,Thu May 16 07:55:25 EEST 2019,main
+837,Add client for spectacle,Thu May 16 07:55:26 EEST 2019,main
+838,Add client for spectacle,Thu May 16 07:55:26 EEST 2019,main
+839,Get spectacles name,Thu May 16 07:55:26 EEST 2019,main
+840,Add client for spectacle,Thu May 16 09:08:06 EEST 2019,main
+841,Add client for spectacle,Thu May 16 09:08:07 EEST 2019,main
+842,Add client for spectacle,Thu May 16 09:08:07 EEST 2019,main
+843,Add client for spectacle,Thu May 16 09:08:09 EEST 2019,main
+844,Add client for spectacle,Thu May 16 09:08:09 EEST 2019,main
+845,Add client for spectacle,Thu May 16 09:08:10 EEST 2019,main
+846,Add client for spectacle,Thu May 16 09:08:10 EEST 2019,main
+847,Add client for spectacle,Thu May 16 09:08:12 EEST 2019,main
+848,Add client for spectacle,Thu May 16 09:08:12 EEST 2019,main
+849,Add client for spectacle,Thu May 16 09:08:13 EEST 2019,main
+850,Add client for spectacle,Thu May 16 09:08:13 EEST 2019,main
+851,Add client for spectacle,Thu May 16 09:08:14 EEST 2019,main
+852,Add client for spectacle,Thu May 16 09:08:14 EEST 2019,main
+853,Add client for spectacle,Thu May 16 09:08:15 EEST 2019,main
+854,Add client for spectacle,Thu May 16 09:08:15 EEST 2019,main
+855,Add client for spectacle,Thu May 16 09:08:16 EEST 2019,main
+856,Add client for spectacle,Thu May 16 09:08:16 EEST 2019,main
+857,Add client for spectacle,Thu May 16 09:08:17 EEST 2019,main
+858,Add client for spectacle,Thu May 16 09:08:17 EEST 2019,main
+859,Add client for spectacle,Thu May 16 09:08:17 EEST 2019,main
+860,Add client for spectacle,Thu May 16 09:08:18 EEST 2019,main
+861,Get spectacles name,Thu May 16 09:08:18 EEST 2019,main
+862,Add client for spectacle,Thu May 16 09:35:41 EEST 2019,main
+863,Add client for spectacle,Thu May 16 09:35:42 EEST 2019,main
+864,Add client for spectacle,Thu May 16 09:35:44 EEST 2019,main
+865,Add client for spectacle,Thu May 16 09:35:45 EEST 2019,main
+866,Add client for spectacle,Thu May 16 09:35:45 EEST 2019,main
+867,Add client for spectacle,Thu May 16 09:35:46 EEST 2019,main
+868,Add client for spectacle,Thu May 16 09:35:47 EEST 2019,main
+869,Add client for spectacle,Thu May 16 09:35:48 EEST 2019,main
+870,Add client for spectacle,Thu May 16 09:35:49 EEST 2019,main
+871,Add client for spectacle,Thu May 16 09:35:50 EEST 2019,main
+872,Add client for spectacle,Thu May 16 09:35:50 EEST 2019,main
+873,Add client for spectacle,Thu May 16 09:35:50 EEST 2019,main
+874,Add client for spectacle,Thu May 16 09:35:51 EEST 2019,main
+875,Add client for spectacle,Thu May 16 09:35:52 EEST 2019,main
+876,Add client for spectacle,Thu May 16 09:35:52 EEST 2019,main
+877,Add client for spectacle,Thu May 16 09:35:52 EEST 2019,main
+878,Add client for spectacle,Thu May 16 09:35:53 EEST 2019,main
+879,Add client for spectacle,Thu May 16 09:35:53 EEST 2019,main
+880,Add client for spectacle,Thu May 16 09:35:54 EEST 2019,main
+881,Add client for spectacle,Thu May 16 09:35:54 EEST 2019,main
+882,Add client for spectacle,Thu May 16 09:35:54 EEST 2019,main
+883,Get spectacles name,Thu May 16 09:35:55 EEST 2019,main
+884,Add client for spectacle,Thu May 16 09:37:15 EEST 2019,main
+885,Add client for spectacle,Thu May 16 09:37:16 EEST 2019,main
+886,Add client for spectacle,Thu May 16 09:37:16 EEST 2019,main
+887,Add client for spectacle,Thu May 16 09:37:17 EEST 2019,main
+888,Add client for spectacle,Thu May 16 09:37:17 EEST 2019,main
+889,Add client for spectacle,Thu May 16 09:37:17 EEST 2019,main
+890,Add client for spectacle,Thu May 16 09:37:18 EEST 2019,main
+891,Add client for spectacle,Thu May 16 09:37:18 EEST 2019,main
+892,Add client for spectacle,Thu May 16 09:37:19 EEST 2019,main
+893,Add client for spectacle,Thu May 16 09:37:20 EEST 2019,main
+894,Add client for spectacle,Thu May 16 09:37:21 EEST 2019,main
+895,Add client for spectacle,Thu May 16 09:37:21 EEST 2019,main
+896,Add client for spectacle,Thu May 16 09:37:22 EEST 2019,main
+897,Add client for spectacle,Thu May 16 09:37:23 EEST 2019,main
+898,Add client for spectacle,Thu May 16 09:37:24 EEST 2019,main
+899,Add client for spectacle,Thu May 16 09:37:24 EEST 2019,main
+900,Add client for spectacle,Thu May 16 09:37:24 EEST 2019,main
+901,Add client for spectacle,Thu May 16 09:37:25 EEST 2019,main
+902,Add client for spectacle,Thu May 16 09:37:25 EEST 2019,main
+903,Add client for spectacle,Thu May 16 09:37:25 EEST 2019,main
+904,Add client for spectacle,Thu May 16 09:37:25 EEST 2019,main
+905,Get spectacles name,Thu May 16 09:37:26 EEST 2019,main
+906,Add client for spectacle,Thu May 16 09:39:15 EEST 2019,main
+907,Add client for spectacle,Thu May 16 09:39:16 EEST 2019,main
+908,Add client for spectacle,Thu May 16 09:39:16 EEST 2019,main
+909,Add client for spectacle,Thu May 16 09:39:17 EEST 2019,main
+910,Add client for spectacle,Thu May 16 09:39:17 EEST 2019,main
+911,Add client for spectacle,Thu May 16 09:39:17 EEST 2019,main
+912,Add client for spectacle,Thu May 16 09:39:18 EEST 2019,main
+913,Add client for spectacle,Thu May 16 09:39:18 EEST 2019,main
+914,Add client for spectacle,Thu May 16 09:39:19 EEST 2019,main
+915,Add client for spectacle,Thu May 16 09:39:20 EEST 2019,main
+916,Add client for spectacle,Thu May 16 09:39:20 EEST 2019,main
+917,Add client for spectacle,Thu May 16 09:39:21 EEST 2019,main
+918,Add client for spectacle,Thu May 16 09:39:22 EEST 2019,main
+919,Add client for spectacle,Thu May 16 09:39:22 EEST 2019,main
+920,Add client for spectacle,Thu May 16 09:39:23 EEST 2019,main
+921,Add client for spectacle,Thu May 16 09:39:23 EEST 2019,main
+922,Add client for spectacle,Thu May 16 09:39:24 EEST 2019,main
+923,Add client for spectacle,Thu May 16 09:39:24 EEST 2019,main
+924,Add client for spectacle,Thu May 16 09:39:25 EEST 2019,main
+925,Add client for spectacle,Thu May 16 09:39:25 EEST 2019,main
+926,Add client for spectacle,Thu May 16 09:39:25 EEST 2019,main
+927,Get spectacles name,Thu May 16 09:39:25 EEST 2019,main
+928,Add client for spectacle,Thu May 16 09:47:55 EEST 2019,main
+929,Add client for spectacle,Thu May 16 09:47:56 EEST 2019,main
+930,Add client for spectacle,Thu May 16 09:47:56 EEST 2019,main
+931,Add client for spectacle,Thu May 16 09:47:57 EEST 2019,main
+932,Add client for spectacle,Thu May 16 09:47:57 EEST 2019,main
+933,Add client for spectacle,Thu May 16 09:47:58 EEST 2019,main
+934,Add client for spectacle,Thu May 16 09:47:58 EEST 2019,main
+935,Add client for spectacle,Thu May 16 09:47:59 EEST 2019,main
+936,Add client for spectacle,Thu May 16 09:48:00 EEST 2019,main
+937,Add client for spectacle,Thu May 16 09:48:00 EEST 2019,main
+938,Add client for spectacle,Thu May 16 09:48:01 EEST 2019,main
+939,Add client for spectacle,Thu May 16 09:48:01 EEST 2019,main
+940,Add client for spectacle,Thu May 16 09:48:02 EEST 2019,main
+941,Add client for spectacle,Thu May 16 09:48:02 EEST 2019,main
+942,Add client for spectacle,Thu May 16 09:48:03 EEST 2019,main
+943,Add client for spectacle,Thu May 16 09:48:04 EEST 2019,main
+944,Add client for spectacle,Thu May 16 09:48:04 EEST 2019,main
+945,Add client for spectacle,Thu May 16 09:48:05 EEST 2019,main
+946,Add client for spectacle,Thu May 16 09:48:05 EEST 2019,main
+947,Add client for spectacle,Thu May 16 09:48:05 EEST 2019,main
+948,Add client for spectacle,Thu May 16 09:48:05 EEST 2019,main
+949,Get spectacles name,Thu May 16 09:48:05 EEST 2019,main
+950,Add client for spectacle,Thu May 16 09:48:43 EEST 2019,main
+951,Add client for spectacle,Thu May 16 09:48:44 EEST 2019,main
+952,Add client for spectacle,Thu May 16 09:48:44 EEST 2019,main
+953,Add client for spectacle,Thu May 16 09:48:45 EEST 2019,main
+954,Add client for spectacle,Thu May 16 09:48:45 EEST 2019,main
+955,Add client for spectacle,Thu May 16 09:48:45 EEST 2019,main
+956,Add client for spectacle,Thu May 16 09:48:46 EEST 2019,main
+957,Add client for spectacle,Thu May 16 09:48:47 EEST 2019,main
+958,Add client for spectacle,Thu May 16 09:48:47 EEST 2019,main
+959,Add client for spectacle,Thu May 16 09:48:48 EEST 2019,main
+960,Add client for spectacle,Thu May 16 09:48:48 EEST 2019,main
+961,Add client for spectacle,Thu May 16 09:48:49 EEST 2019,main
+962,Add client for spectacle,Thu May 16 09:48:50 EEST 2019,main
+963,Add client for spectacle,Thu May 16 09:48:50 EEST 2019,main
+964,Add client for spectacle,Thu May 16 09:48:51 EEST 2019,main
+965,Add client for spectacle,Thu May 16 09:48:51 EEST 2019,main
+966,Add client for spectacle,Thu May 16 09:48:51 EEST 2019,main
+967,Add client for spectacle,Thu May 16 09:48:52 EEST 2019,main
+968,Add client for spectacle,Thu May 16 09:48:52 EEST 2019,main
+969,Add client for spectacle,Thu May 16 09:48:52 EEST 2019,main
+970,Add client for spectacle,Thu May 16 09:48:52 EEST 2019,main
+971,Get spectacles name,Thu May 16 09:48:53 EEST 2019,main
+972,Add client for spectacle,Thu May 16 09:50:27 EEST 2019,main
+973,Add client for spectacle,Thu May 16 09:50:28 EEST 2019,main
+974,Add client for spectacle,Thu May 16 09:50:28 EEST 2019,main
+975,Add client for spectacle,Thu May 16 09:50:29 EEST 2019,main
+976,Add client for spectacle,Thu May 16 09:50:30 EEST 2019,main
+977,Add client for spectacle,Thu May 16 09:50:30 EEST 2019,main
+978,Add client for spectacle,Thu May 16 09:50:31 EEST 2019,main
+979,Add client for spectacle,Thu May 16 09:50:31 EEST 2019,main
+980,Add client for spectacle,Thu May 16 09:50:32 EEST 2019,main
+981,Add client for spectacle,Thu May 16 09:50:33 EEST 2019,main
+982,Add client for spectacle,Thu May 16 09:50:34 EEST 2019,main
+983,Add client for spectacle,Thu May 16 09:50:35 EEST 2019,main
+984,Add client for spectacle,Thu May 16 09:50:35 EEST 2019,main
+985,Add client for spectacle,Thu May 16 09:50:36 EEST 2019,main
+986,Add client for spectacle,Thu May 16 09:50:36 EEST 2019,main
+987,Add client for spectacle,Thu May 16 09:50:37 EEST 2019,main
+988,Add client for spectacle,Thu May 16 09:50:37 EEST 2019,main
+989,Add client for spectacle,Thu May 16 09:50:37 EEST 2019,main
+990,Add client for spectacle,Thu May 16 09:50:38 EEST 2019,main
+991,Add client for spectacle,Thu May 16 09:50:38 EEST 2019,main
+992,Add client for spectacle,Thu May 16 09:50:38 EEST 2019,main
+993,Get spectacles name,Thu May 16 09:50:38 EEST 2019,main
+994,Add client for spectacle,Thu May 16 09:52:05 EEST 2019,main
+995,Add client for spectacle,Thu May 16 09:52:05 EEST 2019,main
+996,Add client for spectacle,Thu May 16 09:52:06 EEST 2019,main
+997,Add client for spectacle,Thu May 16 09:52:06 EEST 2019,main
+998,Add client for spectacle,Thu May 16 09:52:07 EEST 2019,main
+999,Add client for spectacle,Thu May 16 09:52:07 EEST 2019,main
+1000,Add client for spectacle,Thu May 16 09:52:08 EEST 2019,main
+1001,Add client for spectacle,Thu May 16 09:52:08 EEST 2019,main
+1002,Add client for spectacle,Thu May 16 09:52:09 EEST 2019,main
+1003,Add client for spectacle,Thu May 16 09:52:10 EEST 2019,main
+1004,Add client for spectacle,Thu May 16 09:52:10 EEST 2019,main
+1005,Add client for spectacle,Thu May 16 09:52:11 EEST 2019,main
+1006,Add client for spectacle,Thu May 16 09:52:11 EEST 2019,main
+1007,Add client for spectacle,Thu May 16 09:52:12 EEST 2019,main
+1008,Add client for spectacle,Thu May 16 09:52:12 EEST 2019,main
+1009,Add client for spectacle,Thu May 16 09:52:13 EEST 2019,main
+1010,Add client for spectacle,Thu May 16 09:52:13 EEST 2019,main
+1011,Add client for spectacle,Thu May 16 09:52:14 EEST 2019,main
+1012,Add client for spectacle,Thu May 16 09:52:14 EEST 2019,main
+1013,Add client for spectacle,Thu May 16 09:52:14 EEST 2019,main
+1014,Add client for spectacle,Thu May 16 09:52:14 EEST 2019,main
+1015,Get spectacles name,Thu May 16 09:52:15 EEST 2019,main
+1016,Add client for spectacle,Thu May 16 09:57:05 EEST 2019,main
+1017,Add client for spectacle,Thu May 16 09:57:07 EEST 2019,main
+1018,Add client for spectacle,Thu May 16 09:57:08 EEST 2019,main
+1019,Add client for spectacle,Thu May 16 09:57:10 EEST 2019,main
+1020,Add client for spectacle,Thu May 16 09:57:11 EEST 2019,main
+1021,Add client for spectacle,Thu May 16 09:57:12 EEST 2019,main
+1022,Add client for spectacle,Thu May 16 09:57:13 EEST 2019,main
+1023,Add client for spectacle,Thu May 16 09:57:14 EEST 2019,main
+1024,Add client for spectacle,Thu May 16 09:57:14 EEST 2019,main
+1025,Add client for spectacle,Thu May 16 09:57:16 EEST 2019,main
+1026,Add client for spectacle,Thu May 16 09:57:18 EEST 2019,main
+1027,Add client for spectacle,Thu May 16 09:57:19 EEST 2019,main
+1028,Add client for spectacle,Thu May 16 09:57:21 EEST 2019,main
+1029,Add client for spectacle,Thu May 16 09:57:22 EEST 2019,main
+1030,Add client for spectacle,Thu May 16 09:57:22 EEST 2019,main
+1031,Add client for spectacle,Thu May 16 09:57:23 EEST 2019,main
+1032,Add client for spectacle,Thu May 16 09:57:23 EEST 2019,main
+1033,Add client for spectacle,Thu May 16 09:57:23 EEST 2019,main
+1034,Add client for spectacle,Thu May 16 09:57:24 EEST 2019,main
+1035,Add client for spectacle,Thu May 16 09:57:24 EEST 2019,main
+1036,Add client for spectacle,Thu May 16 09:57:25 EEST 2019,main
+1037,Get spectacles name,Thu May 16 09:57:26 EEST 2019,main
+1038,Add client for spectacle,Thu May 16 09:59:32 EEST 2019,main
+1039,Add client for spectacle,Thu May 16 09:59:32 EEST 2019,main
+1040,Add client for spectacle,Thu May 16 09:59:33 EEST 2019,main
+1041,Add client for spectacle,Thu May 16 09:59:34 EEST 2019,main
+1042,Add client for spectacle,Thu May 16 09:59:34 EEST 2019,main
+1043,Add client for spectacle,Thu May 16 09:59:35 EEST 2019,main
+1044,Add client for spectacle,Thu May 16 09:59:36 EEST 2019,main
+1045,Add client for spectacle,Thu May 16 09:59:37 EEST 2019,main
+1046,Add client for spectacle,Thu May 16 09:59:37 EEST 2019,main
+1047,Add client for spectacle,Thu May 16 09:59:38 EEST 2019,main
+1048,Add client for spectacle,Thu May 16 09:59:38 EEST 2019,main
+1049,Add client for spectacle,Thu May 16 09:59:39 EEST 2019,main
+1050,Add client for spectacle,Thu May 16 09:59:39 EEST 2019,main
+1051,Add client for spectacle,Thu May 16 09:59:40 EEST 2019,main
+1052,Add client for spectacle,Thu May 16 09:59:40 EEST 2019,main
+1053,Add client for spectacle,Thu May 16 09:59:41 EEST 2019,main
+1054,Add client for spectacle,Thu May 16 09:59:41 EEST 2019,main
+1055,Add client for spectacle,Thu May 16 09:59:42 EEST 2019,main
+1056,Add client for spectacle,Thu May 16 09:59:42 EEST 2019,main
+1057,Add client for spectacle,Thu May 16 09:59:42 EEST 2019,main
+1058,Add client for spectacle,Thu May 16 09:59:42 EEST 2019,main
+1059,Get spectacles name,Thu May 16 09:59:43 EEST 2019,main
+1060,Add client for spectacle,Thu May 16 10:04:11 EEST 2019,main
+1061,Add client for spectacle,Thu May 16 10:04:12 EEST 2019,main
+1062,Add client for spectacle,Thu May 16 10:04:12 EEST 2019,main
+1063,Add client for spectacle,Thu May 16 10:04:13 EEST 2019,main
+1064,Add client for spectacle,Thu May 16 10:04:13 EEST 2019,main
+1065,Add client for spectacle,Thu May 16 10:04:14 EEST 2019,main
+1066,Add client for spectacle,Thu May 16 10:04:14 EEST 2019,main
+1067,Add client for spectacle,Thu May 16 10:04:15 EEST 2019,main
+1068,Add client for spectacle,Thu May 16 10:04:16 EEST 2019,main
+1069,Add client for spectacle,Thu May 16 10:04:17 EEST 2019,main
+1070,Add client for spectacle,Thu May 16 10:04:17 EEST 2019,main
+1071,Add client for spectacle,Thu May 16 10:04:18 EEST 2019,main
+1072,Add client for spectacle,Thu May 16 10:04:18 EEST 2019,main
+1073,Add client for spectacle,Thu May 16 10:04:19 EEST 2019,main
+1074,Add client for spectacle,Thu May 16 10:04:19 EEST 2019,main
+1075,Add client for spectacle,Thu May 16 10:04:20 EEST 2019,main
+1076,Add client for spectacle,Thu May 16 10:04:20 EEST 2019,main
+1077,Add client for spectacle,Thu May 16 10:04:20 EEST 2019,main
+1078,Add client for spectacle,Thu May 16 10:04:21 EEST 2019,main
+1079,Add client for spectacle,Thu May 16 10:04:21 EEST 2019,main
+1080,Add client for spectacle,Thu May 16 10:04:21 EEST 2019,main
+1081,Get spectacles name,Thu May 16 10:04:21 EEST 2019,main
+1082,Add client for spectacle,Thu May 16 10:05:28 EEST 2019,main
+1083,Add client for spectacle,Thu May 16 10:05:29 EEST 2019,main
+1084,Add client for spectacle,Thu May 16 10:05:30 EEST 2019,main
+1085,Add client for spectacle,Thu May 16 10:05:30 EEST 2019,main
+1086,Add client for spectacle,Thu May 16 10:05:30 EEST 2019,main
+1087,Add client for spectacle,Thu May 16 10:05:31 EEST 2019,main
+1088,Add client for spectacle,Thu May 16 10:05:31 EEST 2019,main
+1089,Add client for spectacle,Thu May 16 10:05:32 EEST 2019,main
+1090,Add client for spectacle,Thu May 16 10:05:33 EEST 2019,main
+1091,Add client for spectacle,Thu May 16 10:05:33 EEST 2019,main
+1092,Add client for spectacle,Thu May 16 10:05:34 EEST 2019,main
+1093,Add client for spectacle,Thu May 16 10:05:35 EEST 2019,main
+1094,Add client for spectacle,Thu May 16 10:05:36 EEST 2019,main
+1095,Add client for spectacle,Thu May 16 10:05:37 EEST 2019,main
+1096,Add client for spectacle,Thu May 16 10:05:37 EEST 2019,main
+1097,Add client for spectacle,Thu May 16 10:05:37 EEST 2019,main
+1098,Add client for spectacle,Thu May 16 10:05:38 EEST 2019,main
+1099,Add client for spectacle,Thu May 16 10:05:38 EEST 2019,main
+1100,Add client for spectacle,Thu May 16 10:05:38 EEST 2019,main
+1101,Add client for spectacle,Thu May 16 10:05:39 EEST 2019,main
+1102,Add client for spectacle,Thu May 16 10:05:39 EEST 2019,main
+1103,Get spectacles name,Thu May 16 10:05:39 EEST 2019,main
+1104,Add client for spectacle,Thu May 16 10:06:23 EEST 2019,main
+1105,Add client for spectacle,Thu May 16 10:06:23 EEST 2019,main
+1106,Add client for spectacle,Thu May 16 10:06:24 EEST 2019,main
+1107,Add client for spectacle,Thu May 16 10:06:24 EEST 2019,main
+1108,Add client for spectacle,Thu May 16 10:06:25 EEST 2019,main
+1109,Add client for spectacle,Thu May 16 10:06:26 EEST 2019,main
+1110,Add client for spectacle,Thu May 16 10:06:26 EEST 2019,main
+1111,Add client for spectacle,Thu May 16 10:06:27 EEST 2019,main
+1112,Add client for spectacle,Thu May 16 10:06:28 EEST 2019,main
+1113,Add client for spectacle,Thu May 16 10:06:28 EEST 2019,main
+1114,Add client for spectacle,Thu May 16 10:06:29 EEST 2019,main
+1115,Add client for spectacle,Thu May 16 10:06:29 EEST 2019,main
+1116,Add client for spectacle,Thu May 16 10:06:30 EEST 2019,main
+1117,Add client for spectacle,Thu May 16 10:06:30 EEST 2019,main
+1118,Add client for spectacle,Thu May 16 10:06:31 EEST 2019,main
+1119,Add client for spectacle,Thu May 16 10:06:31 EEST 2019,main
+1120,Add client for spectacle,Thu May 16 10:06:32 EEST 2019,main
+1121,Add client for spectacle,Thu May 16 10:06:32 EEST 2019,main
+1122,Add client for spectacle,Thu May 16 10:06:32 EEST 2019,main
+1123,Add client for spectacle,Thu May 16 10:06:33 EEST 2019,main
+1124,Add client for spectacle,Thu May 16 10:06:33 EEST 2019,main
+1125,Get spectacles name,Thu May 16 10:06:33 EEST 2019,main
+1126,Add client for spectacle,Thu May 16 10:07:50 EEST 2019,main
+1127,Add client for spectacle,Thu May 16 10:07:51 EEST 2019,main
+1128,Add client for spectacle,Thu May 16 10:07:51 EEST 2019,main
+1129,Add client for spectacle,Thu May 16 10:07:52 EEST 2019,main
+1130,Add client for spectacle,Thu May 16 10:07:52 EEST 2019,main
+1131,Add client for spectacle,Thu May 16 10:07:53 EEST 2019,main
+1132,Add client for spectacle,Thu May 16 10:07:53 EEST 2019,main
+1133,Add client for spectacle,Thu May 16 10:07:54 EEST 2019,main
+1134,Add client for spectacle,Thu May 16 10:07:55 EEST 2019,main
+1135,Add client for spectacle,Thu May 16 10:07:56 EEST 2019,main
+1136,Add client for spectacle,Thu May 16 10:07:56 EEST 2019,main
+1137,Add client for spectacle,Thu May 16 10:07:57 EEST 2019,main
+1138,Add client for spectacle,Thu May 16 10:07:57 EEST 2019,main
+1139,Add client for spectacle,Thu May 16 10:07:58 EEST 2019,main
+1140,Add client for spectacle,Thu May 16 10:07:58 EEST 2019,main
+1141,Add client for spectacle,Thu May 16 10:07:59 EEST 2019,main
+1142,Add client for spectacle,Thu May 16 10:07:59 EEST 2019,main
+1143,Add client for spectacle,Thu May 16 10:07:59 EEST 2019,main
+1144,Add client for spectacle,Thu May 16 10:08:00 EEST 2019,main
+1145,Add client for spectacle,Thu May 16 10:08:00 EEST 2019,main
+1146,Add client for spectacle,Thu May 16 10:08:00 EEST 2019,main
+1147,Get spectacles name,Thu May 16 10:08:00 EEST 2019,main
+1148,Add client for spectacle,Thu May 16 10:09:51 EEST 2019,main
+1149,Add client for spectacle,Thu May 16 10:09:52 EEST 2019,main
+1150,Add client for spectacle,Thu May 16 10:09:52 EEST 2019,main
+1151,Add client for spectacle,Thu May 16 10:09:53 EEST 2019,main
+1152,Add client for spectacle,Thu May 16 10:09:53 EEST 2019,main
+1153,Add client for spectacle,Thu May 16 10:09:54 EEST 2019,main
+1154,Add client for spectacle,Thu May 16 10:09:54 EEST 2019,main
+1155,Add client for spectacle,Thu May 16 10:09:55 EEST 2019,main
+1156,Add client for spectacle,Thu May 16 10:09:56 EEST 2019,main
+1157,Add client for spectacle,Thu May 16 10:09:57 EEST 2019,main
+1158,Add client for spectacle,Thu May 16 10:09:57 EEST 2019,main
+1159,Add client for spectacle,Thu May 16 10:09:58 EEST 2019,main
+1160,Add client for spectacle,Thu May 16 10:09:58 EEST 2019,main
+1161,Add client for spectacle,Thu May 16 10:09:59 EEST 2019,main
+1162,Add client for spectacle,Thu May 16 10:09:59 EEST 2019,main
+1163,Add client for spectacle,Thu May 16 10:10:00 EEST 2019,main
+1164,Add client for spectacle,Thu May 16 10:10:00 EEST 2019,main
+1165,Add client for spectacle,Thu May 16 10:10:01 EEST 2019,main
+1166,Add client for spectacle,Thu May 16 10:10:01 EEST 2019,main
+1167,Add client for spectacle,Thu May 16 10:10:01 EEST 2019,main
+1168,Add client for spectacle,Thu May 16 10:10:01 EEST 2019,main
+1169,Get spectacles name,Thu May 16 10:10:01 EEST 2019,main
+1170,Add client for spectacle,Thu May 16 10:11:08 EEST 2019,main
+1171,Add client for spectacle,Thu May 16 10:11:09 EEST 2019,main
+1172,Add client for spectacle,Thu May 16 10:11:10 EEST 2019,main
+1173,Add client for spectacle,Thu May 16 10:11:10 EEST 2019,main
+1174,Add client for spectacle,Thu May 16 10:11:11 EEST 2019,main
+1175,Add client for spectacle,Thu May 16 10:11:11 EEST 2019,main
+1176,Add client for spectacle,Thu May 16 10:11:12 EEST 2019,main
+1177,Add client for spectacle,Thu May 16 10:11:13 EEST 2019,main
+1178,Add client for spectacle,Thu May 16 10:11:14 EEST 2019,main
+1179,Add client for spectacle,Thu May 16 10:11:14 EEST 2019,main
+1180,Add client for spectacle,Thu May 16 10:11:14 EEST 2019,main
+1181,Add client for spectacle,Thu May 16 10:11:16 EEST 2019,main
+1182,Add client for spectacle,Thu May 16 10:11:17 EEST 2019,main
+1183,Add client for spectacle,Thu May 16 10:11:17 EEST 2019,main
+1184,Add client for spectacle,Thu May 16 10:11:18 EEST 2019,main
+1185,Add client for spectacle,Thu May 16 10:11:18 EEST 2019,main
+1186,Add client for spectacle,Thu May 16 10:11:19 EEST 2019,main
+1187,Add client for spectacle,Thu May 16 10:11:19 EEST 2019,main
+1188,Add client for spectacle,Thu May 16 10:11:19 EEST 2019,main
+1189,Add client for spectacle,Thu May 16 10:11:20 EEST 2019,main
+1190,Add client for spectacle,Thu May 16 10:11:20 EEST 2019,main
+1191,Get spectacles name,Thu May 16 10:11:20 EEST 2019,main
+1192,Add client for spectacle,Thu May 16 10:13:16 EEST 2019,main
+1193,Add client for spectacle,Thu May 16 10:13:17 EEST 2019,main
+1194,Add client for spectacle,Thu May 16 10:13:17 EEST 2019,main
+1195,Add client for spectacle,Thu May 16 10:13:18 EEST 2019,main
+1196,Add client for spectacle,Thu May 16 10:13:18 EEST 2019,main
+1197,Add client for spectacle,Thu May 16 10:13:19 EEST 2019,main
+1198,Add client for spectacle,Thu May 16 10:13:19 EEST 2019,main
+1199,Add client for spectacle,Thu May 16 10:13:20 EEST 2019,main
+1200,Add client for spectacle,Thu May 16 10:13:21 EEST 2019,main
+1201,Add client for spectacle,Thu May 16 10:13:22 EEST 2019,main
+1202,Add client for spectacle,Thu May 16 10:13:22 EEST 2019,main
+1203,Add client for spectacle,Thu May 16 10:13:23 EEST 2019,main
+1204,Add client for spectacle,Thu May 16 10:13:23 EEST 2019,main
+1205,Add client for spectacle,Thu May 16 10:13:24 EEST 2019,main
+1206,Add client for spectacle,Thu May 16 10:13:24 EEST 2019,main
+1207,Add client for spectacle,Thu May 16 10:13:25 EEST 2019,main
+1208,Add client for spectacle,Thu May 16 10:13:25 EEST 2019,main
+1209,Add client for spectacle,Thu May 16 10:13:26 EEST 2019,main
+1210,Add client for spectacle,Thu May 16 10:13:26 EEST 2019,main
+1211,Add client for spectacle,Thu May 16 10:13:26 EEST 2019,main
+1212,Add client for spectacle,Thu May 16 10:13:26 EEST 2019,main
+1213,Get spectacles name,Thu May 16 10:13:27 EEST 2019,main
+1214,Add client for spectacle,Thu May 16 10:36:14 EEST 2019,main
+1215,Add client for spectacle,Thu May 16 10:36:15 EEST 2019,main
+1216,Add client for spectacle,Thu May 16 10:36:16 EEST 2019,main
+1217,Add client for spectacle,Thu May 16 10:36:17 EEST 2019,main
+1218,Add client for spectacle,Thu May 16 10:36:17 EEST 2019,main
+1219,Add client for spectacle,Thu May 16 10:36:18 EEST 2019,main
+1220,Add client for spectacle,Thu May 16 10:36:18 EEST 2019,main
+1221,Add client for spectacle,Thu May 16 10:36:19 EEST 2019,main
+1222,Add client for spectacle,Thu May 16 10:36:20 EEST 2019,main
+1223,Add client for spectacle,Thu May 16 10:36:20 EEST 2019,main
+1224,Add client for spectacle,Thu May 16 10:36:21 EEST 2019,main
+1225,Add client for spectacle,Thu May 16 10:36:22 EEST 2019,main
+1226,Add client for spectacle,Thu May 16 10:36:22 EEST 2019,main
+1227,Add client for spectacle,Thu May 16 10:36:23 EEST 2019,main
+1228,Add client for spectacle,Thu May 16 10:36:23 EEST 2019,main
+1229,Add client for spectacle,Thu May 16 10:36:23 EEST 2019,main
+1230,Add client for spectacle,Thu May 16 10:36:24 EEST 2019,main
+1231,Add client for spectacle,Thu May 16 10:36:24 EEST 2019,main
+1232,Add client for spectacle,Thu May 16 10:36:25 EEST 2019,main
+1233,Add client for spectacle,Thu May 16 10:36:25 EEST 2019,main
+1234,Add client for spectacle,Thu May 16 10:36:25 EEST 2019,main
+1235,Get spectacles name,Thu May 16 10:36:26 EEST 2019,main
+1236,Add client for spectacle,Thu May 16 10:41:31 EEST 2019,main
+1237,Add client for spectacle,Thu May 16 10:41:33 EEST 2019,main
+1238,Add client for spectacle,Thu May 16 10:41:34 EEST 2019,main
+1239,Add client for spectacle,Thu May 16 10:41:35 EEST 2019,main
+1240,Add client for spectacle,Thu May 16 10:41:36 EEST 2019,main
+1241,Add client for spectacle,Thu May 16 10:41:36 EEST 2019,main
+1242,Add client for spectacle,Thu May 16 10:41:37 EEST 2019,main
+1243,Add client for spectacle,Thu May 16 10:41:38 EEST 2019,main
+1244,Add client for spectacle,Thu May 16 10:41:41 EEST 2019,main
+1245,Add client for spectacle,Thu May 16 10:41:42 EEST 2019,main
+1246,Add client for spectacle,Thu May 16 10:41:43 EEST 2019,main
+1247,Add client for spectacle,Thu May 16 10:41:44 EEST 2019,main
+1248,Add client for spectacle,Thu May 16 10:41:45 EEST 2019,main
+1249,Add client for spectacle,Thu May 16 10:41:47 EEST 2019,main
+1250,Add client for spectacle,Thu May 16 10:41:48 EEST 2019,main
+1251,Add client for spectacle,Thu May 16 10:41:49 EEST 2019,main
+1252,Add client for spectacle,Thu May 16 10:41:49 EEST 2019,main
+1253,Add client for spectacle,Thu May 16 10:41:50 EEST 2019,main
+1254,Add client for spectacle,Thu May 16 10:41:50 EEST 2019,main
+1255,Add client for spectacle,Thu May 16 10:41:51 EEST 2019,main
+1256,Add client for spectacle,Thu May 16 10:41:51 EEST 2019,main
+1257,Get spectacles name,Thu May 16 10:41:52 EEST 2019,main
+1258,Add client for spectacle,Thu May 16 10:47:04 EEST 2019,main
+1259,Add client for spectacle,Thu May 16 10:47:05 EEST 2019,main
+1260,Add client for spectacle,Thu May 16 10:47:06 EEST 2019,main
+1261,Add client for spectacle,Thu May 16 10:47:07 EEST 2019,main
+1262,Add client for spectacle,Thu May 16 10:47:07 EEST 2019,main
+1263,Add client for spectacle,Thu May 16 10:47:08 EEST 2019,main
+1264,Add client for spectacle,Thu May 16 10:47:09 EEST 2019,main
+1265,Add client for spectacle,Thu May 16 10:47:09 EEST 2019,main
+1266,Add client for spectacle,Thu May 16 10:47:10 EEST 2019,main
+1267,Add client for spectacle,Thu May 16 10:47:10 EEST 2019,main
+1268,Add client for spectacle,Thu May 16 10:47:11 EEST 2019,main
+1269,Add client for spectacle,Thu May 16 10:47:12 EEST 2019,main
+1270,Add client for spectacle,Thu May 16 10:47:12 EEST 2019,main
+1271,Add client for spectacle,Thu May 16 10:47:12 EEST 2019,main
+1272,Add client for spectacle,Thu May 16 10:47:12 EEST 2019,main
+1273,Add client for spectacle,Thu May 16 10:47:13 EEST 2019,main
+1274,Add client for spectacle,Thu May 16 10:47:13 EEST 2019,main
+1275,Add client for spectacle,Thu May 16 10:47:14 EEST 2019,main
+1276,Add client for spectacle,Thu May 16 10:47:14 EEST 2019,main
+1277,Add client for spectacle,Thu May 16 10:47:15 EEST 2019,main
+1278,Add client for spectacle,Thu May 16 10:47:16 EEST 2019,main
+1279,Add client for spectacle,Thu May 16 10:47:17 EEST 2019,main
+1280,Add client for spectacle,Thu May 16 10:47:17 EEST 2019,main
+1281,Add client for spectacle,Thu May 16 10:47:18 EEST 2019,main
+1282,Add client for spectacle,Thu May 16 10:47:18 EEST 2019,main
+1283,Add client for spectacle,Thu May 16 10:47:19 EEST 2019,main
+1284,Add client for spectacle,Thu May 16 10:47:19 EEST 2019,main
+1285,Add client for spectacle,Thu May 16 10:47:19 EEST 2019,main
+1286,Add client for spectacle,Thu May 16 10:47:19 EEST 2019,main
+1287,Add client for spectacle,Thu May 16 10:47:20 EEST 2019,main
+1288,Add client for spectacle,Thu May 16 10:47:20 EEST 2019,main
+1289,Add client for spectacle,Thu May 16 10:47:21 EEST 2019,main
+1290,Add client for spectacle,Thu May 16 10:47:21 EEST 2019,main
+1291,Add client for spectacle,Thu May 16 10:47:21 EEST 2019,main
+1292,Get spectacles name,Thu May 16 10:47:22 EEST 2019,main
+1293,Add client for spectacle,Thu May 16 10:47:22 EEST 2019,main
+1294,Add client for spectacle,Thu May 16 10:47:22 EEST 2019,main
+1295,Add client for spectacle,Thu May 16 10:47:23 EEST 2019,main
+1296,Add client for spectacle,Thu May 16 10:47:23 EEST 2019,main
+1297,Add client for spectacle,Thu May 16 10:47:24 EEST 2019,main
+1298,Add client for spectacle,Thu May 16 10:47:24 EEST 2019,main
+1299,Add client for spectacle,Thu May 16 10:47:25 EEST 2019,main
+1300,Add client for spectacle,Thu May 16 10:47:25 EEST 2019,main
+1301,Get spectacles name,Thu May 16 10:47:25 EEST 2019,main
+1302,Add client for spectacle,Thu May 16 10:49:23 EEST 2019,main
+1303,Add client for spectacle,Thu May 16 10:49:23 EEST 2019,main
+1304,Add client for spectacle,Thu May 16 10:49:24 EEST 2019,main
+1305,Add client for spectacle,Thu May 16 10:49:25 EEST 2019,main
+1306,Add client for spectacle,Thu May 16 10:49:25 EEST 2019,main
+1307,Add client for spectacle,Thu May 16 10:49:26 EEST 2019,main
+1308,Add client for spectacle,Thu May 16 10:49:27 EEST 2019,main
+1309,Add client for spectacle,Thu May 16 10:49:27 EEST 2019,main
+1310,Add client for spectacle,Thu May 16 10:49:28 EEST 2019,main
+1311,Add client for spectacle,Thu May 16 10:49:29 EEST 2019,main
+1312,Add client for spectacle,Thu May 16 10:49:29 EEST 2019,main
+1313,Add client for spectacle,Thu May 16 10:49:30 EEST 2019,main
+1314,Add client for spectacle,Thu May 16 10:49:30 EEST 2019,main
+1315,Add client for spectacle,Thu May 16 10:49:31 EEST 2019,main
+1316,Add client for spectacle,Thu May 16 10:49:31 EEST 2019,main
+1317,Add client for spectacle,Thu May 16 10:49:32 EEST 2019,main
+1318,Add client for spectacle,Thu May 16 10:49:32 EEST 2019,main
+1319,Add client for spectacle,Thu May 16 10:49:33 EEST 2019,main
+1320,Add client for spectacle,Thu May 16 10:49:33 EEST 2019,main
+1321,Add client for spectacle,Thu May 16 10:49:33 EEST 2019,main
+1322,Add client for spectacle,Thu May 16 10:49:33 EEST 2019,main
+1323,Get spectacles name,Thu May 16 10:49:33 EEST 2019,main
+1324,Add client for spectacle,Thu May 16 10:57:05 EEST 2019,main
+1325,Add client for spectacle,Thu May 16 10:57:06 EEST 2019,main
+1326,Add client for spectacle,Thu May 16 10:57:06 EEST 2019,main
+1327,Add client for spectacle,Thu May 16 10:57:07 EEST 2019,main
+1328,Add client for spectacle,Thu May 16 10:57:07 EEST 2019,main
+1329,Add client for spectacle,Thu May 16 10:57:07 EEST 2019,main
+1330,Add client for spectacle,Thu May 16 10:57:08 EEST 2019,main
+1331,Add client for spectacle,Thu May 16 10:57:08 EEST 2019,main
+1332,Add client for spectacle,Thu May 16 10:57:09 EEST 2019,main
+1333,Add client for spectacle,Thu May 16 10:57:09 EEST 2019,main
+1334,Add client for spectacle,Thu May 16 10:57:10 EEST 2019,main
+1335,Add client for spectacle,Thu May 16 10:57:10 EEST 2019,main
+1336,Add client for spectacle,Thu May 16 10:57:11 EEST 2019,main
+1337,Add client for spectacle,Thu May 16 10:57:12 EEST 2019,main
+1338,Add client for spectacle,Thu May 16 10:57:12 EEST 2019,main
+1339,Add client for spectacle,Thu May 16 10:57:13 EEST 2019,main
+1340,Add client for spectacle,Thu May 16 10:57:13 EEST 2019,main
+1341,Add client for spectacle,Thu May 16 10:57:13 EEST 2019,main
+1342,Add client for spectacle,Thu May 16 10:57:13 EEST 2019,main
+1343,Add client for spectacle,Thu May 16 10:57:14 EEST 2019,main
+1344,Add client for spectacle,Thu May 16 10:57:14 EEST 2019,main
+1345,Get spectacles name,Thu May 16 10:57:14 EEST 2019,main
+1346,Select spectacle,Thu May 16 10:58:08 EEST 2019,AWT-EventQueue-0
+1347,Get selected spectacle,Thu May 16 10:58:08 EEST 2019,AWT-EventQueue-0
+1348,Get spectacle seats,Thu May 16 10:58:08 EEST 2019,AWT-EventQueue-0
+1349,Select spectacle,Thu May 16 10:58:23 EEST 2019,AWT-EventQueue-0
+1350,Get selected spectacle,Thu May 16 10:58:23 EEST 2019,AWT-EventQueue-0
+1351,Get spectacle seats,Thu May 16 10:58:23 EEST 2019,AWT-EventQueue-0
+1352,Create Client,Thu May 16 10:58:37 EEST 2019,AWT-EventQueue-0
+1353,Add client for spectacle,Thu May 16 10:58:37 EEST 2019,AWT-EventQueue-0
+1354,Add client for spectacle,Thu May 16 10:59:29 EEST 2019,main
+1355,Add client for spectacle,Thu May 16 10:59:30 EEST 2019,main
+1356,Add client for spectacle,Thu May 16 10:59:31 EEST 2019,main
+1357,Add client for spectacle,Thu May 16 10:59:32 EEST 2019,main
+1358,Add client for spectacle,Thu May 16 10:59:32 EEST 2019,main
+1359,Add client for spectacle,Thu May 16 10:59:33 EEST 2019,main
+1360,Add client for spectacle,Thu May 16 10:59:33 EEST 2019,main
+1361,Add client for spectacle,Thu May 16 10:59:34 EEST 2019,main
+1362,Add client for spectacle,Thu May 16 10:59:35 EEST 2019,main
+1363,Add client for spectacle,Thu May 16 10:59:35 EEST 2019,main
+1364,Add client for spectacle,Thu May 16 10:59:36 EEST 2019,main
+1365,Add client for spectacle,Thu May 16 10:59:37 EEST 2019,main
+1366,Add client for spectacle,Thu May 16 10:59:37 EEST 2019,main
+1367,Add client for spectacle,Thu May 16 10:59:38 EEST 2019,main
+1368,Add client for spectacle,Thu May 16 10:59:38 EEST 2019,main
+1369,Add client for spectacle,Thu May 16 10:59:39 EEST 2019,main
+1370,Add client for spectacle,Thu May 16 10:59:39 EEST 2019,main
+1371,Add client for spectacle,Thu May 16 10:59:39 EEST 2019,main
+1372,Add client for spectacle,Thu May 16 10:59:39 EEST 2019,main
+1373,Add client for spectacle,Thu May 16 10:59:40 EEST 2019,main
+1374,Get spectacles name,Thu May 16 10:59:40 EEST 2019,main
+1375,Add client for spectacle,Thu May 16 11:02:45 EEST 2019,main
+1376,Add client for spectacle,Thu May 16 11:02:45 EEST 2019,main
+1377,Add client for spectacle,Thu May 16 11:02:46 EEST 2019,main
+1378,Add client for spectacle,Thu May 16 11:02:47 EEST 2019,main
+1379,Add client for spectacle,Thu May 16 11:02:47 EEST 2019,main
+1380,Add client for spectacle,Thu May 16 11:02:48 EEST 2019,main
+1381,Add client for spectacle,Thu May 16 11:02:48 EEST 2019,main
+1382,Add client for spectacle,Thu May 16 11:02:49 EEST 2019,main
+1383,Add client for spectacle,Thu May 16 11:02:49 EEST 2019,main
+1384,Add client for spectacle,Thu May 16 11:02:50 EEST 2019,main
+1385,Add client for spectacle,Thu May 16 11:02:51 EEST 2019,main
+1386,Add client for spectacle,Thu May 16 11:02:51 EEST 2019,main
+1387,Add client for spectacle,Thu May 16 11:02:52 EEST 2019,main
+1388,Add client for spectacle,Thu May 16 11:02:52 EEST 2019,main
+1389,Add client for spectacle,Thu May 16 11:02:52 EEST 2019,main
+1390,Add client for spectacle,Thu May 16 11:02:52 EEST 2019,main
+1391,Add client for spectacle,Thu May 16 11:02:53 EEST 2019,main
+1392,Get spectacles name,Thu May 16 11:02:53 EEST 2019,main
+1393,Add client for spectacle,Thu May 16 11:06:44 EEST 2019,main
+1394,Add client for spectacle,Thu May 16 11:06:44 EEST 2019,main
+1395,Add client for spectacle,Thu May 16 11:06:45 EEST 2019,main
+1396,Add client for spectacle,Thu May 16 11:06:46 EEST 2019,main
+1397,Add client for spectacle,Thu May 16 11:06:46 EEST 2019,main
+1398,Add client for spectacle,Thu May 16 11:06:47 EEST 2019,main
+1399,Add client for spectacle,Thu May 16 11:06:48 EEST 2019,main
+1400,Add client for spectacle,Thu May 16 11:06:48 EEST 2019,main
+1401,Add client for spectacle,Thu May 16 11:06:49 EEST 2019,main
+1402,Add client for spectacle,Thu May 16 11:06:49 EEST 2019,main
+1403,Add client for spectacle,Thu May 16 11:06:50 EEST 2019,main
+1404,Add client for spectacle,Thu May 16 11:06:50 EEST 2019,main
+1405,Add client for spectacle,Thu May 16 11:06:50 EEST 2019,main
+1406,Add client for spectacle,Thu May 16 11:06:51 EEST 2019,main
+1407,Add client for spectacle,Thu May 16 11:06:51 EEST 2019,main
+1408,Add client for spectacle,Thu May 16 11:06:51 EEST 2019,main
+1409,Get spectacles name,Thu May 16 11:06:51 EEST 2019,main
+1410,Add client for spectacle,Thu May 16 11:16:04 EEST 2019,main
+1411,Add client for spectacle,Thu May 16 11:16:05 EEST 2019,main
+1412,Add client for spectacle,Thu May 16 11:16:05 EEST 2019,main
+1413,Add client for spectacle,Thu May 16 11:16:06 EEST 2019,main
+1414,Add client for spectacle,Thu May 16 11:16:07 EEST 2019,main
+1415,Add client for spectacle,Thu May 16 11:16:07 EEST 2019,main
+1416,Add client for spectacle,Thu May 16 11:16:08 EEST 2019,main
+1417,Add client for spectacle,Thu May 16 11:16:08 EEST 2019,main
+1418,Add client for spectacle,Thu May 16 11:16:09 EEST 2019,main
+1419,Add client for spectacle,Thu May 16 11:16:09 EEST 2019,main
+1420,Add client for spectacle,Thu May 16 11:16:10 EEST 2019,main
+1421,Add client for spectacle,Thu May 16 11:16:10 EEST 2019,main
+1422,Add client for spectacle,Thu May 16 11:16:10 EEST 2019,main
+1423,Add client for spectacle,Thu May 16 11:16:10 EEST 2019,main
+1424,Add client for spectacle,Thu May 16 11:16:10 EEST 2019,main
+1425,Get spectacles name,Thu May 16 11:16:11 EEST 2019,main
+1426,Add client for spectacle,Thu May 16 11:20:21 EEST 2019,main
+1427,Add client for spectacle,Thu May 16 11:20:22 EEST 2019,main
+1428,Add client for spectacle,Thu May 16 11:20:23 EEST 2019,main
+1429,Add client for spectacle,Thu May 16 11:20:24 EEST 2019,main
+1430,Add client for spectacle,Thu May 16 11:20:25 EEST 2019,main
+1431,Add client for spectacle,Thu May 16 11:20:26 EEST 2019,main
+1432,Add client for spectacle,Thu May 16 11:20:27 EEST 2019,main
+1433,Add client for spectacle,Thu May 16 11:20:28 EEST 2019,main
+1434,Add client for spectacle,Thu May 16 11:20:29 EEST 2019,main
+1435,Add client for spectacle,Thu May 16 11:20:30 EEST 2019,main
+1436,Add client for spectacle,Thu May 16 11:20:30 EEST 2019,main
+1437,Add client for spectacle,Thu May 16 11:20:31 EEST 2019,main
+1438,Add client for spectacle,Thu May 16 11:20:31 EEST 2019,main
+1439,Add client for spectacle,Thu May 16 11:20:32 EEST 2019,main
+1440,Get spectacles name,Thu May 16 11:20:32 EEST 2019,main
+1441,Add client for spectacle,Thu May 16 11:40:04 EEST 2019,main
+1442,Add client for spectacle,Thu May 16 11:40:05 EEST 2019,main
+1443,Add client for spectacle,Thu May 16 11:40:05 EEST 2019,main
+1444,Add client for spectacle,Thu May 16 11:40:07 EEST 2019,main
+1445,Add client for spectacle,Thu May 16 11:40:08 EEST 2019,main
+1446,Add client for spectacle,Thu May 16 11:40:09 EEST 2019,main
+1447,Add client for spectacle,Thu May 16 11:40:09 EEST 2019,main
+1448,Add client for spectacle,Thu May 16 11:40:10 EEST 2019,main
+1449,Add client for spectacle,Thu May 16 11:40:10 EEST 2019,main
+1450,Add client for spectacle,Thu May 16 11:40:10 EEST 2019,main
+1451,Add client for spectacle,Thu May 16 11:40:11 EEST 2019,main
+1452,Add client for spectacle,Thu May 16 11:40:11 EEST 2019,main
+1453,Add client for spectacle,Thu May 16 11:40:11 EEST 2019,main
+1454,Add client for spectacle,Thu May 16 11:40:11 EEST 2019,main
+1455,Get spectacles name,Thu May 16 11:40:12 EEST 2019,main
+1456,Add client for spectacle,Thu May 16 11:40:42 EEST 2019,main
+1457,Add client for spectacle,Thu May 16 11:40:43 EEST 2019,main
+1458,Add client for spectacle,Thu May 16 11:40:44 EEST 2019,main
+1459,Add client for spectacle,Thu May 16 11:40:44 EEST 2019,main
+1460,Add client for spectacle,Thu May 16 11:40:45 EEST 2019,main
+1461,Add client for spectacle,Thu May 16 11:40:46 EEST 2019,main
+1462,Add client for spectacle,Thu May 16 11:40:47 EEST 2019,main
+1463,Add client for spectacle,Thu May 16 11:40:47 EEST 2019,main
+1464,Add client for spectacle,Thu May 16 11:40:48 EEST 2019,main
+1465,Add client for spectacle,Thu May 16 11:40:48 EEST 2019,main
+1466,Add client for spectacle,Thu May 16 11:40:49 EEST 2019,main
+1467,Add client for spectacle,Thu May 16 11:40:49 EEST 2019,main
+1468,Add client for spectacle,Thu May 16 11:40:49 EEST 2019,main
+1469,Add client for spectacle,Thu May 16 11:40:49 EEST 2019,main
+1470,Get spectacles name,Thu May 16 11:40:49 EEST 2019,main
+1471,Add client for spectacle,Thu May 16 11:42:29 EEST 2019,main
+1472,Add client for spectacle,Thu May 16 11:42:29 EEST 2019,main
+1473,Add client for spectacle,Thu May 16 11:42:30 EEST 2019,main
+1474,Add client for spectacle,Thu May 16 11:42:30 EEST 2019,main
+1475,Add client for spectacle,Thu May 16 11:42:31 EEST 2019,main
+1476,Add client for spectacle,Thu May 16 11:42:31 EEST 2019,main
+1477,Add client for spectacle,Thu May 16 11:42:32 EEST 2019,main
+1478,Add client for spectacle,Thu May 16 11:42:32 EEST 2019,main
+1479,Add client for spectacle,Thu May 16 11:42:33 EEST 2019,main
+1480,Add client for spectacle,Thu May 16 11:42:33 EEST 2019,main
+1481,Add client for spectacle,Thu May 16 11:42:34 EEST 2019,main
+1482,Add client for spectacle,Thu May 16 11:42:34 EEST 2019,main
+1483,Add client for spectacle,Thu May 16 11:42:34 EEST 2019,main
+1484,Add client for spectacle,Thu May 16 11:42:34 EEST 2019,main
+1485,Get spectacles name,Thu May 16 11:42:35 EEST 2019,main
+1486,Add client for spectacle,Thu May 16 11:43:22 EEST 2019,main
+1487,Add client for spectacle,Thu May 16 11:43:23 EEST 2019,main
+1488,Add client for spectacle,Thu May 16 11:43:23 EEST 2019,main
+1489,Add client for spectacle,Thu May 16 11:43:23 EEST 2019,main
+1490,Add client for spectacle,Thu May 16 11:43:24 EEST 2019,main
+1491,Add client for spectacle,Thu May 16 11:43:25 EEST 2019,main
+1492,Add client for spectacle,Thu May 16 11:43:25 EEST 2019,main
+1493,Add client for spectacle,Thu May 16 11:43:26 EEST 2019,main
+1494,Add client for spectacle,Thu May 16 11:43:27 EEST 2019,main
+1495,Add client for spectacle,Thu May 16 11:43:27 EEST 2019,main
+1496,Add client for spectacle,Thu May 16 11:43:28 EEST 2019,main
+1497,Add client for spectacle,Thu May 16 11:43:28 EEST 2019,main
+1498,Add client for spectacle,Thu May 16 11:43:28 EEST 2019,main
+1499,Add client for spectacle,Thu May 16 11:43:28 EEST 2019,main
+1500,Get spectacles name,Thu May 16 11:43:28 EEST 2019,main
+1501,Add client for spectacle,Thu May 16 11:51:52 EEST 2019,main
+1502,Add client for spectacle,Thu May 16 11:51:52 EEST 2019,main
+1503,Add client for spectacle,Thu May 16 11:51:53 EEST 2019,main
+1504,Add client for spectacle,Thu May 16 11:51:53 EEST 2019,main
+1505,Add client for spectacle,Thu May 16 11:51:54 EEST 2019,main
+1506,Add client for spectacle,Thu May 16 11:51:55 EEST 2019,main
+1507,Add client for spectacle,Thu May 16 11:51:55 EEST 2019,main
+1508,Add client for spectacle,Thu May 16 11:51:56 EEST 2019,main
+1509,Add client for spectacle,Thu May 16 11:51:57 EEST 2019,main
+1510,Add client for spectacle,Thu May 16 11:51:57 EEST 2019,main
+1511,Add client for spectacle,Thu May 16 11:51:58 EEST 2019,main
+1512,Add client for spectacle,Thu May 16 11:51:58 EEST 2019,main
+1513,Add client for spectacle,Thu May 16 11:51:58 EEST 2019,main
+1514,Add client for spectacle,Thu May 16 11:51:58 EEST 2019,main
+1515,Get spectacles name,Thu May 16 11:51:58 EEST 2019,main
+1516,Get spectacles name,Thu May 16 12:13:18 EEST 2019,main
+1517,Get spectacles name,Thu May 16 12:14:00 EEST 2019,main
+1518,Add client for spectacle,Thu May 16 12:15:44 EEST 2019,main
+1519,Add client for spectacle,Thu May 16 12:15:44 EEST 2019,main
+1520,Add client for spectacle,Thu May 16 12:15:45 EEST 2019,main
+1521,Add client for spectacle,Thu May 16 12:15:46 EEST 2019,main
+1522,Add client for spectacle,Thu May 16 12:15:47 EEST 2019,main
+1523,Add client for spectacle,Thu May 16 12:15:47 EEST 2019,main
+1524,Add client for spectacle,Thu May 16 12:15:48 EEST 2019,main
+1525,Add client for spectacle,Thu May 16 12:15:48 EEST 2019,main
+1526,Add client for spectacle,Thu May 16 12:15:49 EEST 2019,main
+1527,Add client for spectacle,Thu May 16 12:15:51 EEST 2019,main
+1528,Add client for spectacle,Thu May 16 12:15:51 EEST 2019,main
+1529,Add client for spectacle,Thu May 16 12:15:52 EEST 2019,main
+1530,Add client for spectacle,Thu May 16 12:15:52 EEST 2019,main
+1531,Add client for spectacle,Thu May 16 12:15:52 EEST 2019,main
+1532,Get spectacles name,Thu May 16 12:15:52 EEST 2019,main
+1533,Add client for spectacle,Thu May 16 12:17:07 EEST 2019,main
+1534,Add client for spectacle,Thu May 16 12:17:09 EEST 2019,main
+1535,Add client for spectacle,Thu May 16 12:17:10 EEST 2019,main
+1536,Add client for spectacle,Thu May 16 12:17:11 EEST 2019,main
+1537,Add client for spectacle,Thu May 16 12:17:13 EEST 2019,main
+1538,Add client for spectacle,Thu May 16 12:17:14 EEST 2019,main
+1539,Add client for spectacle,Thu May 16 12:17:15 EEST 2019,main
+1540,Add client for spectacle,Thu May 16 12:17:17 EEST 2019,main
+1541,Add client for spectacle,Thu May 16 12:17:18 EEST 2019,main
+1542,Add client for spectacle,Thu May 16 12:17:19 EEST 2019,main
+1543,Add client for spectacle,Thu May 16 12:17:19 EEST 2019,main
+1544,Add client for spectacle,Thu May 16 12:17:20 EEST 2019,main
+1545,Add client for spectacle,Thu May 16 12:17:21 EEST 2019,main
+1546,Add client for spectacle,Thu May 16 12:17:21 EEST 2019,main
+1547,Get spectacles name,Thu May 16 12:17:22 EEST 2019,main
+1548,Add client for spectacle,Thu May 16 12:18:34 EEST 2019,main
+1549,Add client for spectacle,Thu May 16 12:18:35 EEST 2019,main
+1550,Add client for spectacle,Thu May 16 12:18:35 EEST 2019,main
+1551,Add client for spectacle,Thu May 16 12:18:36 EEST 2019,main
+1552,Add client for spectacle,Thu May 16 12:18:37 EEST 2019,main
+1553,Add client for spectacle,Thu May 16 12:18:56 EEST 2019,main
+1554,Add client for spectacle,Thu May 16 12:18:57 EEST 2019,main
+1555,Add client for spectacle,Thu May 16 12:18:58 EEST 2019,main
+1556,Add client for spectacle,Thu May 16 12:18:59 EEST 2019,main
+1557,Add client for spectacle,Thu May 16 12:19:01 EEST 2019,main
+1558,Add client for spectacle,Thu May 16 12:19:02 EEST 2019,main
+1559,Add client for spectacle,Thu May 16 12:19:02 EEST 2019,main
+1560,Add client for spectacle,Thu May 16 12:19:03 EEST 2019,main
+1561,Add client for spectacle,Thu May 16 12:19:04 EEST 2019,main
+1562,Add client for spectacle,Thu May 16 12:19:05 EEST 2019,main
+1563,Add client for spectacle,Thu May 16 12:19:05 EEST 2019,main
+1564,Add client for spectacle,Thu May 16 12:19:05 EEST 2019,main
+1565,Add client for spectacle,Thu May 16 12:19:06 EEST 2019,main
+1566,Add client for spectacle,Thu May 16 12:19:06 EEST 2019,main
+1567,Get spectacles name,Thu May 16 12:19:07 EEST 2019,main
+1568,Add client for spectacle,Thu May 16 12:21:16 EEST 2019,main
+1569,Add client for spectacle,Thu May 16 12:21:17 EEST 2019,main
+1570,Add client for spectacle,Thu May 16 12:21:18 EEST 2019,main
+1571,Add client for spectacle,Thu May 16 12:21:19 EEST 2019,main
+1572,Add client for spectacle,Thu May 16 12:21:20 EEST 2019,main
+1573,Add client for spectacle,Thu May 16 12:21:23 EEST 2019,main
+1574,Add client for spectacle,Thu May 16 12:21:24 EEST 2019,main
+1575,Add client for spectacle,Thu May 16 12:21:25 EEST 2019,main
+1576,Add client for spectacle,Thu May 16 12:21:26 EEST 2019,main
+1577,Add client for spectacle,Thu May 16 12:21:27 EEST 2019,main
+1578,Add client for spectacle,Thu May 16 12:21:27 EEST 2019,main
+1579,Add client for spectacle,Thu May 16 12:21:28 EEST 2019,main
+1580,Add client for spectacle,Thu May 16 12:21:28 EEST 2019,main
+1581,Add client for spectacle,Thu May 16 12:21:29 EEST 2019,main
+1582,Get spectacles name,Thu May 16 12:21:29 EEST 2019,main
+1583,Add client for spectacle,Thu May 16 12:23:14 EEST 2019,main
+1584,Add client for spectacle,Thu May 16 12:23:14 EEST 2019,main
+1585,Add client for spectacle,Thu May 16 12:23:15 EEST 2019,main
+1586,Add client for spectacle,Thu May 16 12:23:15 EEST 2019,main
+1587,Add client for spectacle,Thu May 16 12:23:16 EEST 2019,main
+1588,Add client for spectacle,Thu May 16 12:23:17 EEST 2019,main
+1589,Add client for spectacle,Thu May 16 12:23:17 EEST 2019,main
+1590,Add client for spectacle,Thu May 16 12:23:18 EEST 2019,main
+1591,Add client for spectacle,Thu May 16 12:23:19 EEST 2019,main
+1592,Add client for spectacle,Thu May 16 12:23:19 EEST 2019,main
+1593,Add client for spectacle,Thu May 16 12:23:20 EEST 2019,main
+1594,Add client for spectacle,Thu May 16 12:23:21 EEST 2019,main
+1595,Add client for spectacle,Thu May 16 12:23:21 EEST 2019,main
+1596,Add client for spectacle,Thu May 16 12:23:21 EEST 2019,main
+1597,Get spectacles name,Thu May 16 12:23:21 EEST 2019,main
+1598,Add client for spectacle,Thu May 16 12:27:44 EEST 2019,main
+1599,Add client for spectacle,Thu May 16 12:27:45 EEST 2019,main
+1600,Add client for spectacle,Thu May 16 12:27:46 EEST 2019,main
+1601,Add client for spectacle,Thu May 16 12:27:46 EEST 2019,main
+1602,Add client for spectacle,Thu May 16 12:27:47 EEST 2019,main
+1603,Add client for spectacle,Thu May 16 12:27:47 EEST 2019,main
+1604,Add client for spectacle,Thu May 16 12:27:48 EEST 2019,main
+1605,Add client for spectacle,Thu May 16 12:27:48 EEST 2019,main
+1606,Add client for spectacle,Thu May 16 12:27:48 EEST 2019,main
+1607,Add client for spectacle,Thu May 16 12:27:51 EEST 2019,main
+1608,Add client for spectacle,Thu May 16 12:27:51 EEST 2019,main
+1609,Add client for spectacle,Thu May 16 12:27:52 EEST 2019,main
+1610,Add client for spectacle,Thu May 16 12:27:52 EEST 2019,main
+1611,Add client for spectacle,Thu May 16 12:27:53 EEST 2019,main
+1612,Add client for spectacle,Thu May 16 12:27:53 EEST 2019,main
+1613,Add client for spectacle,Thu May 16 12:27:54 EEST 2019,main
+1614,Add client for spectacle,Thu May 16 12:27:55 EEST 2019,main
+1615,Add client for spectacle,Thu May 16 12:27:56 EEST 2019,main
+1616,Add client for spectacle,Thu May 16 12:27:57 EEST 2019,main
+1617,Add client for spectacle,Thu May 16 12:27:57 EEST 2019,main
+1618,Add client for spectacle,Thu May 16 12:27:58 EEST 2019,main
+1619,Add client for spectacle,Thu May 16 12:27:58 EEST 2019,main
+1620,Add client for spectacle,Thu May 16 12:27:58 EEST 2019,main
+1621,Add client for spectacle,Thu May 16 12:27:58 EEST 2019,main
+1622,Add client for spectacle,Thu May 16 12:27:59 EEST 2019,main
+1623,Add client for spectacle,Thu May 16 12:27:59 EEST 2019,main
+1624,Get spectacles name,Thu May 16 12:27:59 EEST 2019,main
+1625,Add client for spectacle,Thu May 16 12:27:59 EEST 2019,main
+1626,Add client for spectacle,Thu May 16 12:27:59 EEST 2019,main
+1627,Get spectacles name,Thu May 16 12:28:00 EEST 2019,main
+1628,Add client for spectacle,Thu May 16 12:29:07 EEST 2019,main
+1629,Add client for spectacle,Thu May 16 12:29:08 EEST 2019,main
+1630,Add client for spectacle,Thu May 16 12:29:09 EEST 2019,main
+1631,Add client for spectacle,Thu May 16 12:29:10 EEST 2019,main
+1632,Add client for spectacle,Thu May 16 12:29:10 EEST 2019,main
+1633,Add client for spectacle,Thu May 16 12:29:12 EEST 2019,main
+1634,Add client for spectacle,Thu May 16 12:29:12 EEST 2019,main
+1635,Add client for spectacle,Thu May 16 12:29:12 EEST 2019,main
+1636,Add client for spectacle,Thu May 16 12:29:13 EEST 2019,main
+1637,Add client for spectacle,Thu May 16 12:29:13 EEST 2019,main
+1638,Add client for spectacle,Thu May 16 12:29:14 EEST 2019,main
+1639,Add client for spectacle,Thu May 16 12:29:14 EEST 2019,main
+1640,Add client for spectacle,Thu May 16 12:29:14 EEST 2019,main
+1641,Add client for spectacle,Thu May 16 12:29:14 EEST 2019,main
+1642,Get spectacles name,Thu May 16 12:29:15 EEST 2019,main
+1643,Add client for spectacle,Thu May 16 12:30:00 EEST 2019,main
+1644,Add client for spectacle,Thu May 16 12:30:01 EEST 2019,main
+1645,Add client for spectacle,Thu May 16 12:30:01 EEST 2019,main
+1646,Add client for spectacle,Thu May 16 12:30:02 EEST 2019,main
+1647,Add client for spectacle,Thu May 16 12:30:02 EEST 2019,main
+1648,Add client for spectacle,Thu May 16 12:30:03 EEST 2019,main
+1649,Add client for spectacle,Thu May 16 12:30:03 EEST 2019,main
+1650,Add client for spectacle,Thu May 16 12:30:04 EEST 2019,main
+1651,Add client for spectacle,Thu May 16 12:30:05 EEST 2019,main
+1652,Add client for spectacle,Thu May 16 12:30:05 EEST 2019,main
+1653,Add client for spectacle,Thu May 16 12:30:06 EEST 2019,main
+1654,Add client for spectacle,Thu May 16 12:30:06 EEST 2019,main
+1655,Add client for spectacle,Thu May 16 12:30:06 EEST 2019,main
+1656,Add client for spectacle,Thu May 16 12:30:06 EEST 2019,main
+1657,Get spectacles name,Thu May 16 12:30:07 EEST 2019,main
+1658,Add client for spectacle,Thu May 16 12:30:57 EEST 2019,main
+1659,Add client for spectacle,Thu May 16 12:30:58 EEST 2019,main
+1660,Add client for spectacle,Thu May 16 12:30:59 EEST 2019,main
+1661,Add client for spectacle,Thu May 16 12:30:59 EEST 2019,main
+1662,Add client for spectacle,Thu May 16 12:31:00 EEST 2019,main
+1663,Add client for spectacle,Thu May 16 12:31:01 EEST 2019,main
+1664,Add client for spectacle,Thu May 16 12:31:02 EEST 2019,main
+1665,Add client for spectacle,Thu May 16 12:31:02 EEST 2019,main
+1666,Add client for spectacle,Thu May 16 12:31:03 EEST 2019,main
+1667,Add client for spectacle,Thu May 16 12:31:04 EEST 2019,main
+1668,Add client for spectacle,Thu May 16 12:31:04 EEST 2019,main
+1669,Add client for spectacle,Thu May 16 12:31:04 EEST 2019,main
+1670,Add client for spectacle,Thu May 16 12:31:04 EEST 2019,main
+1671,Add client for spectacle,Thu May 16 12:31:04 EEST 2019,main
+1672,Get spectacles name,Thu May 16 12:31:05 EEST 2019,main
+1673,Add client for spectacle,Thu May 16 12:31:57 EEST 2019,main
+1674,Add client for spectacle,Thu May 16 12:31:57 EEST 2019,main
+1675,Add client for spectacle,Thu May 16 12:31:58 EEST 2019,main
+1676,Add client for spectacle,Thu May 16 12:31:58 EEST 2019,main
+1677,Add client for spectacle,Thu May 16 12:31:59 EEST 2019,main
+1678,Add client for spectacle,Thu May 16 12:31:59 EEST 2019,main
+1679,Add client for spectacle,Thu May 16 12:32:00 EEST 2019,main
+1680,Add client for spectacle,Thu May 16 12:32:01 EEST 2019,main
+1681,Add client for spectacle,Thu May 16 12:32:02 EEST 2019,main
+1682,Add client for spectacle,Thu May 16 12:32:02 EEST 2019,main
+1683,Add client for spectacle,Thu May 16 12:32:02 EEST 2019,main
+1684,Add client for spectacle,Thu May 16 12:32:03 EEST 2019,main
+1685,Add client for spectacle,Thu May 16 12:32:03 EEST 2019,main
+1686,Add client for spectacle,Thu May 16 12:32:03 EEST 2019,main
+1687,Get spectacles name,Thu May 16 12:32:03 EEST 2019,main
+1688,Add client for spectacle,Thu May 16 12:35:37 EEST 2019,main
+1689,Add client for spectacle,Thu May 16 12:35:37 EEST 2019,main
+1690,Add client for spectacle,Thu May 16 12:35:38 EEST 2019,main
+1691,Add client for spectacle,Thu May 16 12:35:39 EEST 2019,main
+1692,Add client for spectacle,Thu May 16 12:35:39 EEST 2019,main
+1693,Add client for spectacle,Thu May 16 12:35:41 EEST 2019,main
+1694,Add client for spectacle,Thu May 16 12:35:41 EEST 2019,main
+1695,Add client for spectacle,Thu May 16 12:35:42 EEST 2019,main
+1696,Add client for spectacle,Thu May 16 12:35:43 EEST 2019,main
+1697,Add client for spectacle,Thu May 16 12:35:43 EEST 2019,main
+1698,Add client for spectacle,Thu May 16 12:35:44 EEST 2019,main
+1699,Add client for spectacle,Thu May 16 12:35:44 EEST 2019,main
+1700,Add client for spectacle,Thu May 16 12:35:44 EEST 2019,main
+1701,Add client for spectacle,Thu May 16 12:35:45 EEST 2019,main
+1702,Get spectacles name,Thu May 16 12:35:45 EEST 2019,main
+1703,Add client for spectacle,Thu May 16 12:37:48 EEST 2019,main
+1704,Add client for spectacle,Thu May 16 12:37:48 EEST 2019,main
+1705,Add client for spectacle,Thu May 16 12:37:49 EEST 2019,main
+1706,Add client for spectacle,Thu May 16 12:37:50 EEST 2019,main
+1707,Add client for spectacle,Thu May 16 12:37:50 EEST 2019,main
+1708,Add client for spectacle,Thu May 16 12:37:51 EEST 2019,main
+1709,Add client for spectacle,Thu May 16 12:37:52 EEST 2019,main
+1710,Add client for spectacle,Thu May 16 12:37:52 EEST 2019,main
+1711,Add client for spectacle,Thu May 16 12:37:53 EEST 2019,main
+1712,Add client for spectacle,Thu May 16 12:37:53 EEST 2019,main
+1713,Add client for spectacle,Thu May 16 12:37:53 EEST 2019,main
+1714,Add client for spectacle,Thu May 16 12:37:53 EEST 2019,main
+1715,Get spectacles name,Thu May 16 12:37:54 EEST 2019,main
+1716,Add client for spectacle,Thu May 16 12:39:32 EEST 2019,main
+1717,Add client for spectacle,Thu May 16 12:39:33 EEST 2019,main
+1718,Add client for spectacle,Thu May 16 12:39:34 EEST 2019,main
+1719,Add client for spectacle,Thu May 16 12:39:34 EEST 2019,main
+1720,Add client for spectacle,Thu May 16 12:39:35 EEST 2019,main
+1721,Add client for spectacle,Thu May 16 12:39:36 EEST 2019,main
+1722,Add client for spectacle,Thu May 16 12:39:36 EEST 2019,main
+1723,Add client for spectacle,Thu May 16 12:39:37 EEST 2019,main
+1724,Add client for spectacle,Thu May 16 12:39:37 EEST 2019,main
+1725,Add client for spectacle,Thu May 16 12:39:38 EEST 2019,main
+1726,Add client for spectacle,Thu May 16 12:39:38 EEST 2019,main
+1727,Get spectacles name,Thu May 16 12:39:38 EEST 2019,main
+1728,Add client for spectacle,Thu May 16 12:47:35 EEST 2019,main
+1729,Add client for spectacle,Thu May 16 12:47:36 EEST 2019,main
+1730,Add client for spectacle,Thu May 16 12:47:36 EEST 2019,main
+1731,Add client for spectacle,Thu May 16 12:47:37 EEST 2019,main
+1732,Add client for spectacle,Thu May 16 12:47:38 EEST 2019,main
+1733,Add client for spectacle,Thu May 16 12:47:38 EEST 2019,main
+1734,Add client for spectacle,Thu May 16 12:47:39 EEST 2019,main
+1735,Add client for spectacle,Thu May 16 12:47:39 EEST 2019,main
+1736,Add client for spectacle,Thu May 16 12:47:40 EEST 2019,main
+1737,Add client for spectacle,Thu May 16 12:47:40 EEST 2019,main
+1738,Add client for spectacle,Thu May 16 12:47:41 EEST 2019,main
+1739,Get spectacles name,Thu May 16 12:47:41 EEST 2019,main
+1740,Get spectacles name,Thu May 16 12:48:01 EEST 2019,AWT-EventQueue-0
+1741,Get spectacles name,Thu May 16 12:48:07 EEST 2019,AWT-EventQueue-0
+1742,Add client for spectacle,Thu May 16 13:07:36 EEST 2019,main
+1743,Add client for spectacle,Thu May 16 13:07:38 EEST 2019,main
+1744,Add client for spectacle,Thu May 16 13:07:39 EEST 2019,main
+1745,Add client for spectacle,Thu May 16 13:07:40 EEST 2019,main
+1746,Add client for spectacle,Thu May 16 13:07:41 EEST 2019,main
+1747,Add client for spectacle,Thu May 16 13:07:43 EEST 2019,main
+1748,Add client for spectacle,Thu May 16 13:07:43 EEST 2019,main
+1749,Add client for spectacle,Thu May 16 13:07:44 EEST 2019,main
+1750,Add client for spectacle,Thu May 16 13:07:45 EEST 2019,main
+1751,Add client for spectacle,Thu May 16 13:07:48 EEST 2019,main
+1752,Add client for spectacle,Thu May 16 13:07:48 EEST 2019,main
+1753,Get spectacles name,Thu May 16 13:07:48 EEST 2019,main
+1754,Get spectacles name,Thu May 16 13:08:26 EEST 2019,AWT-EventQueue-0
+1755,Select spectacle,Thu May 16 13:08:27 EEST 2019,AWT-EventQueue-0
+1756,Get selected spectacle,Thu May 16 13:08:27 EEST 2019,AWT-EventQueue-0
+1757,Get spectacle seats,Thu May 16 13:08:27 EEST 2019,AWT-EventQueue-0
+1758,Select spectacle,Thu May 16 13:08:35 EEST 2019,AWT-EventQueue-0
+1759,Get selected spectacle,Thu May 16 13:08:35 EEST 2019,AWT-EventQueue-0
+1760,Get spectacle seats,Thu May 16 13:08:35 EEST 2019,AWT-EventQueue-0
+1761,Get spectacles name,Thu May 16 13:08:43 EEST 2019,AWT-EventQueue-0
+1762,Create Client,Thu May 16 13:08:45 EEST 2019,AWT-EventQueue-0
+1763,Add client for spectacle,Thu May 16 13:08:45 EEST 2019,AWT-EventQueue-0
+1764,Add client for spectacle,Thu May 16 13:18:10 EEST 2019,main
+1765,Add client for spectacle,Thu May 16 13:18:12 EEST 2019,main
+1766,Add client for spectacle,Thu May 16 13:18:12 EEST 2019,main
+1767,Add client for spectacle,Thu May 16 13:18:13 EEST 2019,main
+1768,Add client for spectacle,Thu May 16 13:18:14 EEST 2019,main
+1769,Add client for spectacle,Thu May 16 13:18:15 EEST 2019,main
+1770,Add client for spectacle,Thu May 16 13:18:16 EEST 2019,main
+1771,Add client for spectacle,Thu May 16 13:18:17 EEST 2019,main
+1772,Add client for spectacle,Thu May 16 13:18:18 EEST 2019,main
+1773,Add client for spectacle,Thu May 16 13:18:19 EEST 2019,main
+1774,Get spectacles name,Thu May 16 13:18:21 EEST 2019,main
+1775,Get spectacles name,Thu May 16 13:18:32 EEST 2019,AWT-EventQueue-0
+1776,Select spectacle,Thu May 16 13:18:34 EEST 2019,AWT-EventQueue-0
+1777,Get selected spectacle,Thu May 16 13:18:34 EEST 2019,AWT-EventQueue-0
+1778,Get spectacle seats,Thu May 16 13:18:34 EEST 2019,AWT-EventQueue-0
+1779,Add client for spectacle,Thu May 16 13:42:41 EEST 2019,main
+1780,Add client for spectacle,Thu May 16 13:42:42 EEST 2019,main
+1781,Add client for spectacle,Thu May 16 13:42:42 EEST 2019,main
+1782,Add client for spectacle,Thu May 16 13:42:43 EEST 2019,main
+1783,Add client for spectacle,Thu May 16 13:42:43 EEST 2019,main
+1784,Add client for spectacle,Thu May 16 13:42:44 EEST 2019,main
+1785,Add client for spectacle,Thu May 16 13:42:45 EEST 2019,main
+1786,Add client for spectacle,Thu May 16 13:42:45 EEST 2019,main
+1787,Add client for spectacle,Thu May 16 13:42:46 EEST 2019,main
+1788,Add client for spectacle,Thu May 16 13:42:46 EEST 2019,main
+1789,Get spectacles name,Thu May 16 13:42:47 EEST 2019,main
+1790,Get spectacles name,Thu May 16 13:43:09 EEST 2019,AWT-EventQueue-0
+1791,Get spectacles name,Thu May 16 13:43:11 EEST 2019,AWT-EventQueue-0
+1792,Select spectacle,Thu May 16 13:43:16 EEST 2019,AWT-EventQueue-0
+1793,Add client for spectacle,Thu May 16 13:44:40 EEST 2019,main
+1794,Add client for spectacle,Thu May 16 13:44:42 EEST 2019,main
+1795,Add client for spectacle,Thu May 16 13:44:43 EEST 2019,main
+1796,Add client for spectacle,Thu May 16 13:44:43 EEST 2019,main
+1797,Add client for spectacle,Thu May 16 13:44:44 EEST 2019,main
+1798,Add client for spectacle,Thu May 16 13:44:44 EEST 2019,main
+1799,Add client for spectacle,Thu May 16 13:44:45 EEST 2019,main
+1800,Add client for spectacle,Thu May 16 13:44:45 EEST 2019,main
+1801,Add client for spectacle,Thu May 16 13:44:46 EEST 2019,main
+1802,Add client for spectacle,Thu May 16 13:44:46 EEST 2019,main
+1803,Get spectacles name,Thu May 16 13:44:47 EEST 2019,main
+1804,Get spectacles name,Thu May 16 13:44:58 EEST 2019,AWT-EventQueue-0
+1805,Select spectacle,Thu May 16 13:44:59 EEST 2019,AWT-EventQueue-0
+1806,Get selected spectacle,Thu May 16 13:44:59 EEST 2019,AWT-EventQueue-0
+1807,Get spectacle seats,Thu May 16 13:44:59 EEST 2019,AWT-EventQueue-0
+1808,Get spectacles name,Thu May 16 13:45:56 EEST 2019,AWT-EventQueue-0
+1809,Add client for spectacle,Thu May 16 13:48:05 EEST 2019,main
+1810,Add client for spectacle,Thu May 16 13:48:06 EEST 2019,main
+1811,Add client for spectacle,Thu May 16 13:48:07 EEST 2019,main
+1812,Add client for spectacle,Thu May 16 13:48:07 EEST 2019,main
+1813,Add client for spectacle,Thu May 16 13:48:08 EEST 2019,main
+1814,Add client for spectacle,Thu May 16 13:48:09 EEST 2019,main
+1815,Add client for spectacle,Thu May 16 13:48:09 EEST 2019,main
+1816,Add client for spectacle,Thu May 16 13:48:10 EEST 2019,main
+1817,Add client for spectacle,Thu May 16 13:48:10 EEST 2019,main
+1818,Add client for spectacle,Thu May 16 13:48:11 EEST 2019,main
+1819,Get spectacles name,Thu May 16 13:48:12 EEST 2019,main
+1820,Add client for spectacle,Thu May 16 13:50:30 EEST 2019,main
+1821,Add client for spectacle,Thu May 16 13:50:32 EEST 2019,main
+1822,Add client for spectacle,Thu May 16 13:50:33 EEST 2019,main
+1823,Add client for spectacle,Thu May 16 13:50:33 EEST 2019,main
+1824,Add client for spectacle,Thu May 16 13:50:34 EEST 2019,main
+1825,Add client for spectacle,Thu May 16 13:50:35 EEST 2019,main
+1826,Add client for spectacle,Thu May 16 13:50:36 EEST 2019,main
+1827,Add client for spectacle,Thu May 16 13:50:36 EEST 2019,main
+1828,Add client for spectacle,Thu May 16 13:50:37 EEST 2019,main
+1829,Add client for spectacle,Thu May 16 13:50:37 EEST 2019,main
+1830,Get spectacles name,Thu May 16 13:50:37 EEST 2019,main
+1831,Get spectacles name,Thu May 16 13:51:19 EEST 2019,AWT-EventQueue-0
+1832,Get spectacles name,Thu May 16 13:51:21 EEST 2019,AWT-EventQueue-0
+1833,Select spectacle,Thu May 16 13:51:23 EEST 2019,AWT-EventQueue-0
+1834,Select spectacle,Thu May 16 13:51:42 EEST 2019,AWT-EventQueue-0
+1835,Get selected spectacle,Thu May 16 13:51:42 EEST 2019,AWT-EventQueue-0
+1836,Get spectacle seats,Thu May 16 13:51:42 EEST 2019,AWT-EventQueue-0
+1837,Select spectacle,Thu May 16 13:51:45 EEST 2019,AWT-EventQueue-0
+1838,Get selected spectacle,Thu May 16 13:51:45 EEST 2019,AWT-EventQueue-0
+1839,Get spectacle seats,Thu May 16 13:51:45 EEST 2019,AWT-EventQueue-0
+1840,Select spectacle,Thu May 16 13:51:47 EEST 2019,AWT-EventQueue-0
+1841,Get selected spectacle,Thu May 16 13:51:47 EEST 2019,AWT-EventQueue-0
+1842,Get spectacle seats,Thu May 16 13:51:47 EEST 2019,AWT-EventQueue-0
+1843,Add client for spectacle,Thu May 16 13:52:57 EEST 2019,main
+1844,Add client for spectacle,Thu May 16 13:52:59 EEST 2019,main
+1845,Add client for spectacle,Thu May 16 13:53:00 EEST 2019,main
+1846,Add client for spectacle,Thu May 16 13:53:01 EEST 2019,main
+1847,Add client for spectacle,Thu May 16 13:53:03 EEST 2019,main
+1848,Add client for spectacle,Thu May 16 13:53:05 EEST 2019,main
+1849,Add client for spectacle,Thu May 16 13:53:06 EEST 2019,main
+1850,Add client for spectacle,Thu May 16 13:53:09 EEST 2019,main
+1851,Add client for spectacle,Thu May 16 13:53:12 EEST 2019,main
+1852,Add client for spectacle,Thu May 16 13:53:14 EEST 2019,main
+1853,Get spectacles name,Thu May 16 13:53:15 EEST 2019,main
+1854,Get spectacles name,Thu May 16 13:53:21 EEST 2019,AWT-EventQueue-0
+1855,Select spectacle,Thu May 16 13:53:31 EEST 2019,AWT-EventQueue-0
+1856,Get spectacles name,Thu May 16 13:53:53 EEST 2019,AWT-EventQueue-0
+1857,Select spectacle,Thu May 16 13:53:55 EEST 2019,AWT-EventQueue-0
+1858,Select spectacle,Thu May 16 13:54:50 EEST 2019,AWT-EventQueue-0
+1859,Get selected spectacle,Thu May 16 13:54:50 EEST 2019,AWT-EventQueue-0
+1860,Get spectacle seats,Thu May 16 13:54:50 EEST 2019,AWT-EventQueue-0
+1861,Select spectacle,Thu May 16 13:55:00 EEST 2019,AWT-EventQueue-0
+1862,Get selected spectacle,Thu May 16 13:55:00 EEST 2019,AWT-EventQueue-0
+1863,Get spectacle seats,Thu May 16 13:55:00 EEST 2019,AWT-EventQueue-0

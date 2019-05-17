@@ -1,0 +1,21 @@
+id,name,seats,payment_type,spectacle,is_vip
+1,John,1| 2| 3,CASH,Aquaman,false
+2,Valica,2| 3,CASH,Us,false
+3,Doro,16| 17| 18| 19,CARD,Us,true
+4,Figaro,32| 33| 34,CARD,Figaro,true
+5,Figarina,2| 3,CASH,Figaro,false
+6,DIana,37| 38| 39,CARD,Avengers: Endgame,true
+7,Dudu,1| 2| 3| 4,CASH,Avengers: Endgame,false
+8,Diana,31| 32| 33| 34| 35,CARD,Avengers: Endgame,true
+9,Joo,16| 17| 18| 19| 20,CARD,Avengers: Endgame,false
+10,Nicolas,16| 17,CARD,Aquaman,true
+11,Doddy,4| 5| 6,CASH,Aquaman,false
+12,Valentin ,21| 22| 23| 24| 25,CARD,Aquaman,true
+13,Victoras,22| 23| 24| 25,CARD,Avengers: Endgame,true
+14,Ionica,27| 28| 29,CARD,Avengers: Endgame,true
+15,Bogdan,1| 2| 3,CASH,A star is Born,false
+16,Iliuta,16| 17| 18| 19,CARD,A star is Born,true
+17,JohnGUI,24| 23,CARD,A star is Born,true
+18,JohnGUI,18| 19,CARD,Criminalii,true
+19,John,27| 28,CARD,Criminalii,true
+20,Bogdan sefu la bani,26,CARD,Avengers: Endgame,true
